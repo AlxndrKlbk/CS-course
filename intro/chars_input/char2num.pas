@@ -5,6 +5,7 @@ var
     c: char;
     res: longint;
     pos: integer;
+
 begin
     res := 0;
     pos := 0;
