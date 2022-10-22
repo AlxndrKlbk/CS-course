@@ -1,0 +1,17 @@
+102
+134
+new character is: †
+†
+115
+147
+new character is: “
+“
+100
+132
+new character is: „
+„
+102
+134
+new character is: †
+†
+†“„†
