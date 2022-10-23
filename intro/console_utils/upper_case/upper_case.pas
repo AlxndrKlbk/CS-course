@@ -48,13 +48,13 @@ begin
     begin
         read(character);
         current_ascii_num := ord(character);
-        ascii_pos := current_ascii_num + 16 * 2;
-        if check_big_chars_ascii_num(character) then
+        ascii_pos := current_ascii_num - 16 * 2;
+        if check_small_chars_ascii_num(character) then
         begin
             converted_string := converted_string + Chr(ascii_pos);
         end
         else
-        if check_small_chars_ascii_num(character) then
+        if check_big_chars_ascii_num(character) then
             converted_string := converted_string + character
     
     end;    
