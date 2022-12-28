@@ -1,25 +1,28 @@
-Some usefull references and descriptions for NASM learning
+Some usefull references and descriptions for NASM learning. 
 
+---------
+---FAQ---
+---------
 
+- ld - GNU linker for building executable files
 
-------------------
+----------------
 ---ASM sintax---
-------------------
+----------------
 
 name: command - name is a marker to memory cell with command
 
 
 ------------------
----CP registers:---
-
+---CP registers---
 ------------------
 EAX     - 
 XOR EAX -
 
 
-------------------
----CP commands:---
-------------------
+-----------------
+---CP commands---
+-----------------
 
 inc - increment value in registry
 cmp - to compare (results of compare writen to flags registry)
