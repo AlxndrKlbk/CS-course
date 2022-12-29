@@ -3,7 +3,7 @@ global _start
 
 section .text
 _start: mov     eax, 0
-again:  PRINT "HELLO"
+again:  PRINT "Hello World"
         PUTCHAR 10
         inc     eax
         cmp     eax, 5
