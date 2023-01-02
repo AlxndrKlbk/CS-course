@@ -11,6 +11,11 @@ usefull keys:
 -o  - name executable file
 -V  list of available emulations  
 
+----------
+---NASM---
+----------
+nasm -f elf file.asm
+
 ----------------
 ---ASM sintax---
 ----------------
@@ -45,7 +50,13 @@ IF, TF  - Interrupt Flag & Trap Flag
 inc                 - increment value in registry
 cmp                 - to compare (results of compare writen to flags registry)
 jl                  - jump if less
+jnz                 - jump if not zero
 resb, resw, resd    - reserve one bite, two bite, double two bite cells (memory usage)
-db, dw, dd          -    writing initial data (db - one bite, dw - wtire machine word, dd - write double machine word) 
-
-
+db, dw, dd          - writing initial data (db - one bite, dw - wtire machine word, dd - write double machine word) 
+mov                 - to move (mov to from)
+lea                 - load effective addres
+add, sub            - addition and subtraction
+mul, imul           - multiplication
+div, idiv           - division
+cwb                 - convert word to doubleword
+cbw                 - convert byte to word
