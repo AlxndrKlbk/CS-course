@@ -1,0 +1,135 @@
+     1                                  global _start
+     2                                  
+     3                                  section .text
+     4                                  
+     5                                  ;
+     6                                  ;  [ebp+8] is pointer to string
+     7                                  ;  [ebp+12] is pointer to pattern
+     8                                  ;  returns eax==0 for false, eax==1 for true
+     9                                  ;
+    10                                  match:
+    11 00000000 55                      		push ebp
+    12 00000001 89E5                    		mov ebp, esp
+    13 00000003 83EC04                  		sub esp, 4		; local I (index) is [ebp-4]
+    14 00000006 56                      		push esi		; we use esi, edi  and eax,
+    15 00000007 57                      		push edi		; but eax is changed anyway
+    16 00000008 8B7508                  		mov esi, [ebp+8]	; esi always points to the string
+    17 0000000B 8B7D0C                  		mov edi, [ebp+12]	; edi -------------------- pattern
+    18                                  .again:
+    19 0000000E 803F00                  		cmp byte [edi], 0	; pattern end?
+    20 00000011 750B                    		jne .not_end
+    21 00000013 803E00                  		cmp byte [esi], 0	; string end?
+    22 00000016 0F854E000000            		jne near .false		; out of range
+    23 0000001C EB45                    		jmp .true
+    24                                  .not_end:
+    25 0000001E 803F2A                  		cmp byte [edi], '*'
+    26 00000021 752B                    		jne .not_star
+    27                                  					; now the "star cycle" begins
+    28 00000023 C745FC00000000          		mov dword [ebp-4], 0	; I := 0
+    29                                  .star_loop:
+    30                                  					; prepare the recursive call
+    31 0000002A 89F8                    		mov eax, edi		; second arg of match is pattern+1
+    32 0000002C 40                      		inc eax
+    33 0000002D 50                      		push eax
+    34 0000002E 89F0                    		mov eax, esi		; first arg of match is string+I
+    35 00000030 0345FC                  		add eax, [ebp-4]	; prepare the recursive call
+    36 00000033 50                      		push eax
+    37 00000034 E8C7FFFFFF              		call match
+    38 00000039 83C408                  		add esp, 8		; remove params from stack
+    39 0000003C 85C0                    		test eax, eax		; what is returned, true or false?
+    40 0000003E 7523                    		jnz .true		; if 1, then match is found, return 1
+    41 00000040 0345FC                  		add eax, [ebp-4]
+    42 00000043 803C0600                		cmp byte [esi+eax], 0	; may be string ended?
+    43 00000047 7421                    		je .false		; if so, no more possibilities to try
+    44 00000049 FF45FC                  		inc dword [ebp-4]	; I := I + 1
+    45 0000004C EBDC                    		jmp .star_loop		; try the next possibility
+    46                                  .not_star:
+    47 0000004E 8A07                    		mov al, [edi]		; we already know pattern isn't ended
+    48 00000050 3C3F                    		cmp al, '?'
+    49 00000052 7406                    		je .quest
+    50 00000054 3A06                    		cmp al, [esi]		; if the string's over, this cmp fails
+    51 00000056 7512                    		jne .false		; as well as if the chars differ
+    52 00000058 EB05                    		jmp .goon
+    53                                  .quest:
+    54 0000005A 803E00                  		cmp byte [esi], 0	; we only need to check for string end
+    55 0000005D 740B                    		jz .false
+    56                                  .goon:
+    57 0000005F 46                      		inc esi
+    58 00000060 47                      		inc edi
+    59 00000061 EBAB                    		jmp .again
+    60                                  .true:
+    61 00000063 B801000000              		mov eax, 1
+    62 00000068 EB02                    		jmp .quit
+    63                                  .false:
+    64 0000006A 31C0                    		xor eax, eax
+    65                                  .quit:
+    66 0000006C 5F                      		pop edi
+    67 0000006D 5E                      		pop esi
+    68 0000006E 89EC                    		mov esp, ebp
+    69 00000070 5D                      		pop ebp
+    70 00000071 C3                      		ret
+    71                                  
+    72                                  
+    73                                  
+    74                                  ;
+    75                                  ;  MAIN PROGRAM
+    76                                  ;
+    77                                  _start:
+    78 00000072 58                      		pop eax
+    79 00000073 83F803                  		cmp eax, 3
+    80 00000076 754D                    		jne wrong_args
+    81 00000078 5E                      		pop esi  ; ignore argv[0]
+    82 00000079 5E                      		pop esi  ; get argv[1]
+    83 0000007A 5F                      		pop edi  ; get argv[2]
+    84 0000007B 8935[00000000]          		mov [string], esi
+    85 00000081 893D[04000000]          		mov [pattern], edi
+    86                                  
+    87 00000087 57                      		push edi
+    88 00000088 56                      		push esi
+    89 00000089 E872FFFFFF              		call match
+    90 0000008E 83C408                  		add esp, 8
+    91 00000091 85C0                    		test eax, eax
+    92 00000093 7418                    		jz print_no
+    93                                  
+    94 00000095 BA04000000              		mov edx, 4		; print yes
+    95 0000009A B9[00000000]            		mov ecx, m_yes
+    96 0000009F BB01000000              		mov ebx, 1
+    97 000000A4 B804000000              		mov eax, 4
+    98 000000A9 CD80                    		int 80h
+    99 000000AB EB30                    		jmp quit
+   100                                  print_no:			; print no
+   101 000000AD BA04000000              		mov edx, 4
+   102 000000B2 B9[04000000]            		mov ecx, m_no
+   103 000000B7 BB01000000              		mov ebx, 1
+   104 000000BC B804000000              		mov eax, 4
+   105 000000C1 CD80                    		int 80h
+   106 000000C3 EB18                    		jmp quit
+   107                                  
+   108                                  wrong_args:			; say wrong args
+   109 000000C5 BA21000000              		mov edx, m_wrong_len
+   110 000000CA B9[08000000]            		mov ecx, m_wrong
+   111 000000CF BB01000000              		mov ebx, 1
+   112 000000D4 B804000000              		mov eax, 4
+   113 000000D9 CD80                    		int 80h
+   114 000000DB EB00                    		jmp quit
+   115                                  
+   116                                  
+   117                                  quit:
+   118 000000DD BB00000000              		mov ebx, 0
+   119 000000E2 B801000000              		mov eax, 1
+   120 000000E7 CD80                    		int 80h	
+   121                                  
+   122                                  section .bss
+   123                                  
+   124 00000000 ????????                string		resd	1
+   125 00000004 ????????                pattern		resd	1
+   126                                  
+   127                                  section .data
+   128                                  
+   129 00000000 5945530A                m_yes		db	"YES", 10
+   130 00000004 4E4F200A                m_no		db	"NO ", 10
+   131 00000008 77726F6E6720617267-     m_wrong		db	"wrong arguments count, must be 2", 10
+   131 00000011 756D656E747320636F-
+   131 0000001A 756E742C206D757374-
+   131 00000023 20626520320A       
+   132                                  m_wrong_len	equ	$-m_wrong
