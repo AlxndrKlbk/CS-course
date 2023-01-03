@@ -6,6 +6,8 @@ Some usefull references and descriptions for NASM learning.
 
 - ld - GNU linker for building executable files
 
+ld -m elf_i386 file.o -o file
+
 usefull keys: 
 -m  - emulation
 -o  - name executable file
