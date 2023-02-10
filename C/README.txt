@@ -1,4 +1,5 @@
 usefull gcc flags
 
--lm - link math <math.h>
--Wall - error messages while compilling
+-lm     - link math <math.h>
+-Wall   - error messages while compilling
+-o      - name executing file
