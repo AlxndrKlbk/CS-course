@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Russian translation for the prog program
+# No copyrights is claimed
+# Alexander B. Kolbeko 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-12 19:28+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alexander B. Kolbeko \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prog.c:18
+#, c-format
+msgid "Hello, world!\n"
+msgstr "Привет, мир!\n"
+
+#: prog.c:19
+#, c-format
+msgid "Good bye, world!\n"
+msgstr "До свидания, мир!\n"

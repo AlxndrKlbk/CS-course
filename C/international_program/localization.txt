@@ -1,0 +1,6 @@
+[alxndrklbk@archlinux international_program]$ xgettext --keyword="_" prog.c -o prog.pot
+add translation to file
+[alxndrklbk@archlinux international_program]$ msgfmt ru.po -o ru.mo
+[alxndrklbk@archlinux international_program]$ mkdir -p ru/LC_MESSAGES
+[alxndrklbk@archlinux international_program]$ cp ru.mo ru/LC_MESSAGES/prog.mo
+
