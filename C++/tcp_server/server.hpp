@@ -45,5 +45,5 @@ class ChatSession : FdHandler
     void ReadAndCheck();
     void CheckLines();
     void ProcessLine( const char *str );
-            
+
 }; 
