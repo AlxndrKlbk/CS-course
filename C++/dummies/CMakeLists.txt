@@ -17,6 +17,11 @@ add_executable(ransome_note problems/ransome_note/ransome_note.cpp)
 add_executable(fizz_buzz problems/fizz_buzz/fizz_buzz.cpp)
 add_executable(del_middle_node problems/del_middle_node/del_middle_node.cpp)
 add_executable(k_weakest_rows_matrix problems/k_weakest_rows_matrix/k_weakest.cpp)
+add_executable(negative_in_matrix problems/negative_in_matrix/negative_amount.cpp)
+add_executable(find_target problems/find_target/find_target.cpp)
+add_executable(find_target_2 problems/find_target/find_target_2.cpp)
+add_executable(add_two_num problems/add_two_num/add_two_num.cpp)
+add_executable(add_two_num_2_list problems/add_two_num_2_list/add_two_num_2_list.cpp)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
