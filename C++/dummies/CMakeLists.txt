@@ -23,6 +23,7 @@ add_executable(find_target_2 problems/find_target/find_target_2.cpp)
 add_executable(add_two_num problems/add_two_num/add_two_num.cpp)
 add_executable(add_two_num_2_list problems/add_two_num_2_list/add_two_num_2_list.cpp)
 add_executable(add_two_num_2_list_shared problems/add_two_num_2_list/add_two_num_2_list_shared.cpp)
+add_executable(biggest_prefix problems/biggest_prefix/biggest_prefix.cpp)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
