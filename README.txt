@@ -4,6 +4,7 @@ http://csapp.cs.cmu.edu/3e/home.html
 https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html
 
 OS + Networking
+Filesystem Hierarchy Standard
 https://pages.cs.wisc.edu/~remzi/OSTEP/
 https://beej.us/guide/bgnet/
 http://gaia.cs.umass.edu/kurose_ross/index.php
