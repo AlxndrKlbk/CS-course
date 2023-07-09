@@ -25,7 +25,7 @@ add_executable(add_two_num_2_list problems/add_two_num_2_list/add_two_num_2_list
 add_executable(add_two_num_2_list_shared problems/add_two_num_2_list/add_two_num_2_list_shared.cpp)
 add_executable(biggest_prefix problems/biggest_prefix/biggest_prefix.cpp)
 add_executable(biggest_substr_uniq_chars problems/biggest_substr/biggest_substr_uniq_chars.cpp)
-
+add_executable(contain_most_water problems/contain_most_water/contain_most_water.cpp)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
