@@ -29,7 +29,7 @@ public:
 };
 
 
-int main(int argc, char **argv)
+int main(int argc, char** argv)
 {
     Solution solver = Solution();
     vector<int> box = { 1, 2, 8, 2, 4, 5, 6, 7, 3 };
