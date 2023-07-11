@@ -28,6 +28,7 @@ add_executable(biggest_substr_uniq_chars problems/biggest_substr/biggest_substr_
 add_executable(contain_most_water problems/contain_most_water/contain_most_water.cpp)
 add_executable(int_to_roman problems/int_to_roman/int_to_roman.cpp)
 add_executable(int_to_roman2 problems/int_to_roman/int_to_roman2.cpp)
+add_executable(mid_of_array problems/mid_of_arrays/mid_of_arrays.cpp)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
