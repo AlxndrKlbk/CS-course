@@ -31,6 +31,7 @@ add_executable(int_to_roman2 problems/int_to_roman/int_to_roman2.cpp)
 add_executable(mid_of_array problems/mid_of_arrays/mid_of_arrays.cpp)
 add_executable(palindromic_substr problems/palindromic_substr/palindromic_substr.cpp)
 add_executable(palindromic_substr2 problems/palindromic_substr/palindromic_substr2.cpp)
+add_executable(int_to_bin problems/int_to_bin/int_to_bin.cpp)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
