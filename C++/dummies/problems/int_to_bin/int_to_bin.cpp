@@ -29,7 +29,7 @@ void to_negative( vector< int >& bits)
 /**
  * @brief int_to_binary
  * @param n: 64-bit integer
- * @return bin presentation of n two’s complement code
+ * @return bin presentation of value in two’s complement code
  */
 vector< int > int_to_binary( long n )
 {
