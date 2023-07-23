@@ -32,6 +32,18 @@ add_executable(mid_of_array problems/mid_of_arrays/mid_of_arrays.cpp)
 add_executable(palindromic_substr problems/palindromic_substr/palindromic_substr.cpp)
 add_executable(palindromic_substr2 problems/palindromic_substr/palindromic_substr2.cpp)
 add_executable(int_to_bin problems/int_to_bin/int_to_bin.cpp)
+add_executable(duplicates_in_str problems/duplicates_in_str/duplicates_in_str.cpp)
+add_executable(serializable_list_node
+    problems/serializable_list_node/main.cpp
+    problems/serializable_list_node/serializable_list_node.cpp)
+
+target_include_directories( ${PROJECT_NAME} PUBLIC
+    problems/serializable_list_node
+)
+
+target_sources( ${PROJECT_NAME} PUBLIC
+    problems/serializable_list_node/serializable_list_node.cpp
+)
 
 install(TARGETS dummies
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
