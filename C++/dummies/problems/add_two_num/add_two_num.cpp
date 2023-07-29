@@ -1,6 +1,6 @@
 #include <vector>
 #include <unordered_map>
-#include <algorithm>>
+#include <algorithm>
 
 using std::vector;
 using std::unordered_map;
