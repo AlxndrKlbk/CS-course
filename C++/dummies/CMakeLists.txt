@@ -36,6 +36,8 @@ add_executable(duplicates_in_str problems/duplicates_in_str/duplicates_in_str.cp
 add_executable(serializable_list_node
     problems/serializable_list_node/main.cpp
     problems/serializable_list_node/serializable_list_node.cpp)
+add_executable(deepest_node problems/deepest_node_bin_tree/deepest_node.cpp)
+add_executable(three_sum problems/three_sum/three_sum.cpp)
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
