@@ -40,6 +40,7 @@ add_executable(deepest_node problems/deepest_node_bin_tree/deepest_node.cpp)
 add_executable(three_sum problems/three_sum/three_sum.cpp)
 add_executable(phone_number_digits problems/phone_number_digits/phone_number_digits.cpp)
 add_executable(remove_nth_elem_node_list problems/remove_nth_elem_node_list/remove_nth_elem_node_list.cpp )
+add_executable(reverse_int problems/reverse_int/reverse_int.cpp )
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
