@@ -18,7 +18,7 @@ public:
         if(numRows <= 1)
             return s;
 
-        vector<string>v(numRows, "");
+        vector<string> str_vec (numRows, "");
 
         int j = 0, dir = -1;
 
@@ -28,7 +28,7 @@ public:
             if(j == numRows - 1 || j == 0)
                 dir *= (-1);
 
-            v[j] += s[i];
+            str_vec[j] += s[i];
             if(dir == 1)
                 j++;
             else
@@ -37,10 +37,9 @@ public:
 
         string res;
 
-        for(auto &it : v) res += it;
-
+        for(auto &it : str_vec)
+            res += it;
         return res;
-
     }
 };
 
