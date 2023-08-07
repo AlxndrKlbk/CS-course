@@ -42,6 +42,7 @@ add_executable(phone_number_digits problems/phone_number_digits/phone_number_dig
 add_executable(remove_nth_elem_node_list problems/remove_nth_elem_node_list/remove_nth_elem_node_list.cpp )
 add_executable(reverse_int problems/reverse_int/reverse_int.cpp )
 add_executable(valid_brackets problems/valid_brackets/valid_brackets.cpp )
+add_executable(z_pattern problems/z_pattern/z_pattern.cpp )
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
