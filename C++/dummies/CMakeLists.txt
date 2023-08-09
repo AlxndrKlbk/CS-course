@@ -43,6 +43,7 @@ add_executable(remove_nth_elem_node_list problems/remove_nth_elem_node_list/remo
 add_executable(reverse_int problems/reverse_int/reverse_int.cpp )
 add_executable(valid_brackets problems/valid_brackets/valid_brackets.cpp )
 add_executable(z_pattern problems/z_pattern/z_pattern.cpp )
+add_executable(my_atoi problems/my_atoi/my_atoi.cpp )
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
