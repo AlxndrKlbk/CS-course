@@ -3,4 +3,5 @@ go 1.20
 use(
     ./fizzbuzz
     ./hello_world
+    ./iota
 )
