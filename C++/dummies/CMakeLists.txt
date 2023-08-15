@@ -45,6 +45,7 @@ add_executable(valid_brackets problems/valid_brackets/valid_brackets.cpp )
 add_executable(z_pattern problems/z_pattern/z_pattern.cpp )
 add_executable(my_atoi problems/my_atoi/my_atoi.cpp )
 add_executable(merge_two_sorted_list problems/merge_two_sorted_list/merge_two_sorted_list.cpp)
+add_executable(parenthesis problems/parenthesis/parenthesis.cpp)
 
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
