@@ -11,4 +11,7 @@ use (
 	./is_ascii
 	./two_sum
 	./struct_to_json
+	./wrappers
+	./figures
+	./test_defer
 )
