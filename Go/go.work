@@ -9,4 +9,6 @@ use (
 	./bufio_usage
 	./test_slices
 	./is_ascii
+	./two_sum
+	./struct_to_json
 )
