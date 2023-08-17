@@ -1,7 +1,12 @@
-go 1.20
+go 1.21.0
 
-use(
-    ./fizzbuzz
-    ./hello_world
-    ./iota
+use (
+	./fizzbuzz
+	./generation_hello
+	./hello_world
+	./iota
+	./pointers
+	./bufio_usage
+	./test_slices
+	./is_ascii
 )
