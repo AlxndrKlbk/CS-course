@@ -14,4 +14,11 @@ use (
 	./wrappers
 	./figures
 	./test_defer
+	./stopwatch
+	./logger
+	./io_reader
+	./io_writer
+	./reflect_usage
+	./validate_string
+	./panic_usage
 )
