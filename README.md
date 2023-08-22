@@ -6,7 +6,7 @@
 		<th> Status </th>
 	</tr>
 	<tr>
-		<td> <a href=https://www.google.ru/books/edition/%D0%9A%D0%BE%D0%B4_%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%B8%D0%BD%D1%84%D0%BE%D1%80/fpnGDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Code: The Hidden Language of Computer Hardware and Software </a> </td>
+		<td> <a href=https://www.google.ru/books/edition/%D0%9A%D0%BE%D0%B4_%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%B8%D0%BD%D1%84%D0%BE%D1%80/fpnGDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Code: The Hidden Language of <br /> Computer Hardware and Software </a> </td>
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/5/5a/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2</td>
 	</tr>
@@ -44,11 +44,6 @@
 	<tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE/eGGLDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Modern operating systems </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-x/wc700/6571169121.jpg" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
-	</tr>
-	<tr>
-		<td> <a href="https://www.livelib.ru/book/1000244228-szhatie-dannyh-izobrazhenij-i-zvuka-perevod-s-anglijskogo-selomon-d"> Сжатие данных, изображения и звука </a> </td>
-		<td><img src="https://s1.livelib.ru/boocover/1000244228/o/6c2d/Selomon_D.__Szhatie_dannyh_izobrazhenij_i_zvuka._Perevod_s_anglijskogo.jpeg" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2</td>
 	</tr>
 </table>
@@ -120,12 +115,12 @@
 		<th> Status </th>
 	</tr>
 	<tr>
-		<td> <a href="https://www.labirint.ru/books/197755/"> Книга шифров: Тайная история шифров и их расшифровки </a> </td>
+		<td> <a href="https://www.labirint.ru/books/197755/"> Книга шифров: <br /> Тайная история шифров и их расшифровки </a> </td>
 		<td><img src="https://img3.labirint.ru/rc/656ecc9f802d4700761b93df1a707687/363x561q80/books20/197755/cover.jpg?1280394613" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2</td>
 	</tr>
 	<tr>
-		<td> <a href="https://www.ozon.ru/product/prikladnaya-kriptografiya-protokoly-algoritmy-i-ishodnyy-kod-na-c-645406349/?sh=mVvNNgj9wQ"> Прикладная криптография: протоколы, алгоритмы и исходный код на C </a> </td>
+		<td> <a href="https://www.ozon.ru/product/prikladnaya-kriptografiya-protokoly-algoritmy-i-ishodnyy-kod-na-c-645406349/?sh=mVvNNgj9wQ"> Прикладная криптография:<br />протоколы, алгоритмы и исходный код на C </a> </td>
 		<td><img src="https://static1.bgshop.ru/imagehandler.ashx?filename=10366847.jpg&width=550" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2</td>
 	</tr>
@@ -152,6 +147,11 @@
 	<tr>
 		<td> <a href="https://www.litres.ru/book/kris-kasperski/komputernye-virusy-iznutri-i-snaruzhi-585385/"> Компьютерные вирусы изнутри и снаружи </a> </td>
 		<td><img src="https://cv8.litres.ru/pub/c/cover_max1500/585385.jpg" alt="image" width="150" height="auto"></td>
+		<td> search &#x25a2</td>
+	</tr>
+	<tr>
+		<td> <a href="https://www.livelib.ru/book/1000244228-szhatie-dannyh-izobrazhenij-i-zvuka-perevod-s-anglijskogo-selomon-d"> Сжатие данных, изображения и звука </a> </td>
+		<td><img src="https://s1.livelib.ru/boocover/1000244228/o/6c2d/Selomon_D.__Szhatie_dannyh_izobrazhenij_i_zvuka._Perevod_s_anglijskogo.jpeg" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2</td>
 	</tr>
 </table>
