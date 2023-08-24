@@ -21,4 +21,5 @@ use (
 	./reflect_usage
 	./validate_string
 	./panic_usage
+	./summarizer
 )
