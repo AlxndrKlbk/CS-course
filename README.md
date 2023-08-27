@@ -177,7 +177,7 @@
 	</tr>
 	<tr>
 		<td> <a href="https://ru.wikipedia.org/wiki/Design_Patterns"> Design Patterns: <br /> Elements of Reusable Object-Oriented Software </a> </td>
-		<td><img src="https://cv9.litres.ru/pub/c/cover_415/64073196.webp" alt="image" width="150" height="auto"></td>
+		<td><img src="https://ir.ozone.ru/s3/multimedia-1/wc700/6414346537.jpg" alt="image" width="150" height="auto"></td>
 		<td> reade &#9989 </td>
 	</tr>
 	<tr>
