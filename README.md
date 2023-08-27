@@ -178,12 +178,42 @@
 	<tr>
 		<td> <a href="https://ru.wikipedia.org/wiki/Design_Patterns"> Design Patterns: <br /> Elements of Reusable Object-Oriented Software </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-1/wc700/6414346537.jpg" alt="image" width="150" height="auto"></td>
-		<td> reade &#9989 </td>
+		<td> readed &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.litres.ru/book/robert-nistrem/patterny-programmirovaniya-igr-66556220/"> Game Programming Patterns </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/0990582906.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
 		<td> in personal library &#9989 </td>
+	</tr>
+</table>
+
+
+## Languages
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Publication skin</th>
+		<th> Status </th>
+	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/C-Programming-Language-4th/dp/0321563840"> The C++ Programming Language </a> </td>
+		<td><img src="https://m.media-amazon.com/images/P/0321563840.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
+		<td> In personal library &#9989 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://habr.com/ru/articles/248137/"> Effective C++: 42 Specific Ways to Improve Your Programs and Designs </a> </td>
+		<td><img src="https://habrastorage.org/files/069/615/2ef/0696152ef06e40cba11aa1eaba203f11.gif" alt="image" width="150" height="auto"></td>
+		<td> In personal library &#9989 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
+		<td><img src="https://ir.ozone.ru/multimedia/wc1000/1026889199.jpg" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#9989 </td>
+	</tr>
+    <tr>
+		<td> <a href="https://www.academia.edu/5049766/Mark_Lutz_Learning_Python_5th_Edition_2013"/>  Mark Lutz - Learning Python </a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/51ycFmfAeKL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="image" width="150" height="auto"></td>
+		<td> readed part one &#9989 <br /> search part two &#x25a2 </td>
 	</tr>
 </table>
 
