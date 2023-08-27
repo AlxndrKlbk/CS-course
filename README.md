@@ -158,7 +158,32 @@
 	<tr>
 		<td> <a href="https://www.livelib.ru/book/1000244228-szhatie-dannyh-izobrazhenij-i-zvuka-perevod-s-anglijskogo-selomon-d"> Сжатие данных, изображения и звука </a> </td>
 		<td><img src="https://s1.livelib.ru/boocover/1000244228/o/6c2d/Selomon_D.__Szhatie_dannyh_izobrazhenij_i_zvuka._Perevod_s_anglijskogo.jpeg" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
+		<td> search &#x25a2 </td>
+	</tr>
+</table>
+
+
+## Patters and System Design
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Publication skin</th>
+		<th> Status </th>
+	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/?redirectFromSmile=1"> Designing Data-Intensive Applications: </br>The Big Ideas Behind Reliable, Scalable, and Maintainable Systems  </a> </td>
+		<td><img src="https://m.media-amazon.com/images/P/B06XPJML5D.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#9989 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://ru.wikipedia.org/wiki/Design_Patterns"> Design Patterns: <br /> Elements of Reusable Object-Oriented Software </a> </td>
+		<td><img src="https://cv9.litres.ru/pub/c/cover_415/64073196.webp" alt="image" width="150" height="auto"></td>
+		<td> reade &#9989 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://www.litres.ru/book/robert-nistrem/patterny-programmirovaniya-igr-66556220/"> Game Programming Patterns </a> </td>
+		<td><img src="https://m.media-amazon.com/images/P/0990582906.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#9989 </td>
 	</tr>
 </table>
 
@@ -167,23 +192,21 @@
 [15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)
 
 #### Networking  Filesystem Hierarchy Standard courses
-https://beej.us/guide/bgnet/
+[Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 
+#### Databases
+[Carnegie Mellon University Database Group](https://www.youtube.com/@CMUDatabaseGroup/playlists)
 
------
-Databases
-https://www.youtube.com/@CMUDatabaseGroup/playlists
+#### Security
+[Learn to hack!pwd.college](https://pwn.college)
+[Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)
 
-Security
-https://pwn.college
-https://web.stanford.edu/class/cs253/
+#### Algo + Math
+[MIT open course: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/)
+[MIT open course: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
 
-Algo + Math
-https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/
-https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/
+#### Distributed Systems
+[MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
-Distributed Systems
-https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/?redirectFromSmile=1
-https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB
-
-https://teachyourselfcs.com
+#### Generally
+[Teach yourself computer science](https://teachyourselfcs.com)
