@@ -207,7 +207,7 @@
 	</tr>
 	<tr>
 		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
-		<td><img src="https://ir.ozone.ru/multimedia/wc1000/1026889199.jpg" alt="image" width="150" height="auto"></td>
+		<td><img src="https://ir.ozone.ru/multimedia/wc700/1015844266.jpg" alt="image" width="150" height="auto"></td>
 		<td> in personal library &#9989 </td>
 	</tr>
     <tr>
