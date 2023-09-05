@@ -208,12 +208,33 @@
 	<tr>
 		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
 		<td><img src="https://ir.ozone.ru/multimedia/wc700/1015844266.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> readed &#9989 </td>
 	</tr>
     <tr>
 		<td> <a href="https://www.academia.edu/5049766/Mark_Lutz_Learning_Python_5th_Edition_2013"/>  Mark Lutz - Learning Python </a> </td>
 		<td><img src="https://m.media-amazon.com/images/I/51ycFmfAeKL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="image" width="150" height="auto"></td>
 		<td> readed part one &#9989 <br /> search part two &#x25a2 </td>
+	</tr>
+</table>
+
+
+## Graphic
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Publication skin</th>
+		<th> Status </th>
+	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/OpenGL-Programming-Guide-Official-Learning/dp/0321773039"> The Official Guide to Learning OpenGL </a> </td>
+		<td><img src="http://www.opengl-redbook.com/cover.png" alt="image" width="150" height="auto"></td>
+		<td> Search &#x25a2 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/Interactive-Computer-Graphics-Top-Down-Approach/dp/020138597X"> Interactive Computer Graphics: <br /> A Top-Down Approach with OpenGL
+ </a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/21QxQ4iuQ0L._BO1,204,203,200_.jpg" alt="image" width="150" height="auto"></td>
+		<td> Search &#x25a2 </td>
 	</tr>
 </table>
 
@@ -230,6 +251,7 @@
 #### Security
 [Learn to hack!pwd.college](https://pwn.college)
 [Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)
+[Crack me!](https://crackmes.one/)
 
 #### Algo + Math
 [MIT open course: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/)
