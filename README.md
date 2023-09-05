@@ -14,7 +14,7 @@
     <tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%9A%D0%BE%D0%B4_%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%B8%D0%BD%D1%84%D0%BE%D1%80/fpnGDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Code: The Hidden Language of <br /> Computer Hardware and Software </a> </td>
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/5/5a/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg" alt="image" width="150" height="auto"></td>
-		<td> ordered &#9989 </td>
+		<td> Processing &#9989 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5/uE6Z8aioa_oC?hl=ru&gbpv=1&printsec=frontcover> Structured Computer Organization
@@ -262,3 +262,6 @@
 
 #### Generally
 [Teach yourself computer science](https://teachyourselfcs.com)
+
+#### Compilers/Disassembly 
+[interactive online compiler Godbolt](https://godbolt.org/)
