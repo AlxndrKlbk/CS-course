@@ -64,7 +64,7 @@
 	<tr>
 		<td> <a href=https://lshoshia.science.tsu.ge/assembler.pdf> Assembler. Для DOS, Windows и Unix </a> </td>
 		<td><img src="https://s1.livelib.ru/boocover/1001246882/o/0a15/Sergej_Zubkov__Assembler_dlya_DOS_Windows_i_Unix.jpeg" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
+		<td> ordered &#9989 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://books.google.ru/books?id=wPt9DwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false> Modern X86 Assembly Language Programming
