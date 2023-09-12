@@ -1,4 +1,4 @@
-
+## Computer Architecture
 <table>
 	<tr>
 		<th> Title </th>
@@ -14,7 +14,7 @@
     <tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%9A%D0%BE%D0%B4_%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%B8%D0%BD%D1%84%D0%BE%D1%80/fpnGDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Code: The Hidden Language of <br /> Computer Hardware and Software </a> </td>
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/5/5a/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg" alt="image" width="150" height="auto"></td>
-		<td> Processing &#9989 </td>
+		<td> readed &#9989 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5/uE6Z8aioa_oC?hl=ru&gbpv=1&printsec=frontcover> Structured Computer Organization
@@ -64,7 +64,7 @@
 	<tr>
 		<td> <a href=https://lshoshia.science.tsu.ge/assembler.pdf> Assembler. Для DOS, Windows и Unix </a> </td>
 		<td><img src="https://s1.livelib.ru/boocover/1001246882/o/0a15/Sergej_Zubkov__Assembler_dlya_DOS_Windows_i_Unix.jpeg" alt="image" width="150" height="auto"></td>
-		<td> ordered &#9989 </td>
+		<td> in personal library &#9989 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://books.google.ru/books?id=wPt9DwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false> Modern X86 Assembly Language Programming
@@ -196,6 +196,11 @@
 		<th> Status </th>
 	</tr>
 	<tr>
+		<td> <a href="http://uroci.karadev.net/pdf_basic/C++%20For%20DUMMIES.pdf"> The C++ for dummies </a> </td>
+		<td><img src="https://cv1.litres.ru/pub/c/cover_200/28281813.jpg" alt="image" width="150" height="auto"></td>
+		<td> readed &#9989 </td>
+	</tr>
+    <tr>
 		<td> <a href="https://www.amazon.com/C-Programming-Language-4th/dp/0321563840"> The C++ Programming Language </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/0321563840.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
 		<td> In personal library &#9989 </td>
