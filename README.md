@@ -270,3 +270,6 @@
 
 #### Compilers/Disassembly 
 [interactive online compiler Godbolt](https://godbolt.org/)
+
+#### Graphic
+[OpenGL guide](https://learnopengl.com/)
