@@ -48,16 +48,7 @@ conan_basic_setup(TARGETS)
 include(FindProtobuf)
 find_package(Protobuf REQUIRED)
 
-message(${Protobuf_FOUND})
-message("!!!!!!protobuf_INCLUDE IS HERE!!!!!!!!")
-message("${protobuf_INCLUDE_DIR}")
-message("!!!!!!protobuf_LIBRARIES IS HERE!!!!!!!!")
-message("${protobuf_LIBRARIES}")
-message("!!!!!!PROTOBUF_LIBRARIES IS  HERE!!!!!!!!")
-message("${PROTOBUF_LIBRARIES}")
-message("!!!!!!PROTOBUF_LIBRARY IS HERE!!!!!!!!")
-message("${PROTOBUF_LIBRARY}")
-
+message("\n--[protobuf_INCLUDE]: ${protobuf_INCLUDE_DIR}")
 
 # proto files dir
 ADD_SUBDIRECTORY(proto)
