@@ -245,33 +245,33 @@
 
 
 #### OS courses
-[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)
+[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)\
 
 #### Networking  Filesystem Hierarchy Standard courses
-[Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
+[Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)\
 
 #### Databases
-[Carnegie Mellon University Database Group](https://www.youtube.com/@CMUDatabaseGroup/playlists)
+[Carnegie Mellon University Database Group](https://www.youtube.com/@CMUDatabaseGroup/playlists)\
 
 #### Security
-[Learn to hack!pwd.college](https://pwn.college)
-[Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)
-[Crack me!](https://crackmes.one/)
+[Learn to hack!pwd.college](https://pwn.college)\
+[Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)\
+[Crack me!](https://crackmes.one/)\
 
 #### Algo + Math
-[MIT open course: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/)
-[MIT open course: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
+[MIT open course: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/)\
+[MIT open course: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)\
 
 #### Distributed Systems
-[MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
+[MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)\
 
 #### Generally
-[Teach yourself computer science](https://teachyourselfcs.com)
+[Teach yourself computer science](https://teachyourselfcs.com)\
 
 #### Compilers/Disassembly 
-[interactive online compiler Godbolt](https://godbolt.org/)
-[Сompilation theory university course](https://ps-group.github.io/compilers/)
+[interactive online compiler Godbolt](https://godbolt.org/)\
+[Сompilation theory university course](https://ps-group.github.io/compilers/)\
 
 #### Graphic
-[OpenGL guide](https://learnopengl.com/)
-[Vulkan guide](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
+[OpenGL guide](https://learnopengl.com/)\
+[Vulkan guide](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)\
