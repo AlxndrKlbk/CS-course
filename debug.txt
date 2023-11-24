@@ -1,5 +1,5 @@
 gdb - GNU debugger
 
-for using debugger in executing file should stay info about debug info.
-for example in fpc using "-g" before target file do it.
+Usage of debugger required that execution file should contain debug simbols.
+For example in fpc using "-g" before target file do it.
 
