@@ -20,7 +20,7 @@
 		<td> <a href=https://www.google.ru/books/edition/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5/uE6Z8aioa_oC?hl=ru&gbpv=1&printsec=frontcover> Structured Computer Organization
 </a> </td>
 		<td><img src="https://img3.labirint.ru/rc/95def292c580d5a22ad3a811bb441f53/363x561q80/books39/386601/cover.jpg?1685121915" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
+		<td> in personal library &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href=http://csapp.cs.cmu.edu/3e/home.html> Computer Systems: A Programmer's Perspective </a> </td>
@@ -70,7 +70,7 @@
 		<td> <a href=https://books.google.ru/books?id=wPt9DwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false> Modern X86 Assembly Language Programming
 </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-j/wc1000/6316677763.jpg" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
+		<td> in personal library &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href=https://books.4nmv.ru/books/iskusstvo_dizassemblirovaniya_3642988.pdf> Искусство дизассемблирования </a> </td>
@@ -208,7 +208,7 @@
 	<tr>
 		<td> <a href="https://habr.com/ru/articles/248137/"> Effective C++: 42 Specific Ways to Improve Your Programs and Designs </a> </td>
 		<td><img src="https://habrastorage.org/files/069/615/2ef/0696152ef06e40cba11aa1eaba203f11.gif" alt="image" width="150" height="auto"></td>
-		<td> In personal library &#9989 </td>
+		<td> processing &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
@@ -270,6 +270,8 @@
 
 #### Compilers/Disassembly 
 [interactive online compiler Godbolt](https://godbolt.org/)
+[Сompilation theory university course](https://ps-group.github.io/compilers/)
 
 #### Graphic
 [OpenGL guide](https://learnopengl.com/)
+[Vulkan guide](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)
