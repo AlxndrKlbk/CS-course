@@ -203,7 +203,7 @@
     <tr>
 		<td> <a href="https://www.amazon.com/C-Programming-Language-4th/dp/0321563840"> The C++ Programming Language </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/0321563840.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
-		<td> In personal library &#9989 </td>
+		<td> handbook &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://habr.com/ru/articles/248137/"> Effective C++: 42 Specific Ways to Improve Your Programs and Designs </a> </td>
