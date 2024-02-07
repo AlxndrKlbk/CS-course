@@ -2,11 +2,13 @@ cmake_minimum_required(VERSION 3.5)
 
 project(dummies LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+cmake_policy(SET CMP0076 NEW)
+
 
 add_executable(dummies main.cpp)
-add_executable(converter converter/converter.cpp)
+add_executable(converter problems/converter/converter.cpp)
 add_executable(romans problems/romans_to_int/romans.cpp )
 add_executable(romans_2 problems/romans_to_int/romans_2.cpp )
 add_executable(max_wealth problems/max_wealth/max_wealth.cpp )
@@ -47,6 +49,8 @@ add_executable(my_atoi problems/my_atoi/my_atoi.cpp )
 add_executable(merge_two_sorted_list problems/merge_two_sorted_list/merge_two_sorted_list.cpp)
 add_executable(parenthesis problems/parenthesis/parenthesis.cpp)
 
+
+add_subdirectory(bierne_straustrup)
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
