@@ -1,0 +1,2 @@
+
+add_executable(pointers_to_massives pointers_to_massives/pointers_to_massives.cpp)
