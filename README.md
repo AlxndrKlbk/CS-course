@@ -271,6 +271,7 @@
 #### Compilers/Disassembly 
 [interactive online compiler Godbolt](https://godbolt.org/)\
 [Сompilation theory university course](https://ps-group.github.io/compilers/)
+[Архитектура и язык ассемблера RISC-V](https://uneex.org/LecturesCMC/ArchitectureAssembler2024)
 
 #### Graphic
 [OpenGL guide](https://learnopengl.com/)\
