@@ -1,5 +1,5 @@
         This page contains structured information about topics of Computer Science and ranked
-    lists of books for each, you are welcome to use it of give me new links to education materials,
+    lists of books for each, you are welcome to use it or give me new links to education materials,
     as well as share them with your friends.
 
 
