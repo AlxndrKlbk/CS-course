@@ -190,6 +190,11 @@
 		<td><img src="https://m.media-amazon.com/images/P/0990582906.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
 		<td> in personal library &#9989 </td>
 	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/Software-Architecture-effective-architecture-techniques/dp/1838554599"> Software Architecture with C++: Design modern systems using effective architecture concepts, design patterns, and techniques with C++20 </a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/71wZng2nEFL._SL1360_.jpg" alt="image" width="150" height="auto"></td>
+		<td> search &#x25a2 </td>
+	</tr>
 </table>
 
 
