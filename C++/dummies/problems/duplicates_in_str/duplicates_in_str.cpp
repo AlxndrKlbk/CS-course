@@ -1,13 +1,13 @@
 #include <iostream>
 
 
-void RemoveDups( char* str )
+void RemoveDups(char* str )
 {
-    char* temp = str;
-    char* write = temp;
-    for(char* read = temp + 1; *read != '\0'; ++read) {
-        if(*read != *write)
+    char* write = str;
+    for(char* read = str + 1; *read != '\0'; ++read) {
+        if(*read != *write) {
             *++write = *read;
+        }
     }
     *++write = '\0';
 }
@@ -15,7 +15,9 @@ void RemoveDups( char* str )
 int main(int argc, char *argv[])
 {
     char* str = argv[1];
+
+    std::cout << "init str : " << str << std::endl;
     RemoveDups( str );
-    std::cout << str << std::endl;
+    std::cout << "filterd : " << str << std::endl;
     return 0;
 }
