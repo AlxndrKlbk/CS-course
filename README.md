@@ -276,11 +276,12 @@
 [MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
 #### Generally
-[Teach yourself computer science](https://teachyourselfcs.com)
+[Teach yourself computer science](https://teachyourselfcs.com)\
+[Rust webassebmly](https://bcnrust.github.io/devbcn-workshop/index.html)
 
 #### Compilers/Disassembly 
 [interactive online compiler Godbolt](https://godbolt.org/)\
-[Сompilation theory university course](https://ps-group.github.io/compilers/)
+[Сompilation theory university course](https://ps-group.github.io/compilers/)\
 [Архитектура и язык ассемблера RISC-V](https://uneex.org/LecturesCMC/ArchitectureAssembler2024)
 
 #### Graphic
