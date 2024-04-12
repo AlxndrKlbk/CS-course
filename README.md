@@ -224,6 +224,11 @@
 		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
 		<td><img src="https://ir.ozone.ru/multimedia/wc700/1015844266.jpg" alt="image" width="150" height="auto"></td>
 		<td> read &#9989 </td>
+	</tr> 
+	<tr>
+		<td> <a href="https://www.amazon.com/High-Performance-Financial-Systems-leveraging/dp/1805124528"/> C++ High Performance for Financial Systems: Build efficient and optimized financial systems by leveraging the power of C++ </a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/81w1nICiKDL._SL1500_.jpg" alt="image" width="150" height="auto"></td>
+		<td> search &#x25a2 </td>
 	</tr>
     <tr>
 		<td> <a href="https://www.academia.edu/5049766/Mark_Lutz_Learning_Python_5th_Edition_2013"/>  Mark Lutz - Learning Python </a> </td>
