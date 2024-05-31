@@ -238,7 +238,7 @@
 </table>
 
 
-## Linux
+## Linux maintenance & Kernel
 <table>
 	<tr>
 		<th> Title </th>
@@ -250,6 +250,16 @@
 		<td><img src="/img/linux_hacker_view.jpg" alt="image" width="150" height="auto"></td>
 		<td> read &#9989 </td>
 	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/How-Linux-Works-Brian-Ward/dp/1718500408"> internal device Linux 3rd ed. Ward Brian </a> </td>
+		<td><img src="/img/internal_device_Linux_3rd_ed_Ward_Brian.webp" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#9989 </td>
+    </tr>
+	<tr>
+		<td> <a href="https://amperka.ru/product/linux-internals"> Внутренее устройство Linux </a> </td>
+		<td><img src="/img/linux-internals.jpg" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#9989 </td>
+    </tr>
 </table>
 
 
