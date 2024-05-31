@@ -238,6 +238,21 @@
 </table>
 
 
+## Linux
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Publication skin</th>
+		<th> Status </th>
+	</tr>
+	<tr>
+		<td> <a href="https://bhv.ru/product/linux-glazami-hakera-6-e-izdanie/"> Linux глазами хакера </a> </td>
+		<td><img src="/img/linux_hacker_view.jpg" alt="image" width="150" height="auto"></td>
+		<td> read &#9989 </td>
+	</tr>
+</table>
+
+
 ## Graphic
 <table>
 	<tr>
