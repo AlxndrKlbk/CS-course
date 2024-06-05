@@ -1,14 +1,13 @@
 #include "pointers_to_massives.hpp"
 
-#include <stdlib.h>
 #include <string.h>
 #include <iostream>
 
 int main(int argc, char** argv)
 {
     int v[] = {1, 2, 3, 4};
-    int* p1 = v;
-    int* p2 = &v[0];
+    // int* p1 = v;
+    // int* p2 = &v[0];
     int* p3 = v + 4;
 
     *p3 = 2;
