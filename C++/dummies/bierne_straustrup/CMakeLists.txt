@@ -1,3 +1,4 @@
 
 add_executable(pointers_to_massives pointers_to_massives/pointers_to_massives.cpp)
 add_executable(initialize_list initializer_list/initializer_list.cpp)
+add_executable(pointers_copy pointers_copy/poiters_copy.cpp)
