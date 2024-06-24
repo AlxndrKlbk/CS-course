@@ -319,3 +319,7 @@
 [Lear OpenGl](https://learnopengl.com/Introduction)\
 [Vulkan guide](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR)\
 [Vulkan doc](https://docs.vulkan.org)
+
+#### Quantum Computing
+[CERN course](https://russol.info/quantum)
+
