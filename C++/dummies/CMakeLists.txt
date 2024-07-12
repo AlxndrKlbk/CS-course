@@ -51,6 +51,7 @@ add_executable(parenthesis problems/parenthesis/parenthesis.cpp)
 
 
 add_subdirectory(bierne_straustrup)
+add_subdirectory(old_cpp)
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
