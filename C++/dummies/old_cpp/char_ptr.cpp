@@ -37,7 +37,12 @@ void usage_char_massive()
 void usage_char_ptr()
 {
     cout << "-------" << std::endl << __PRETTY_FUNCTION__ << std::endl;
-    char* char_ptr = "char_ptr text";  // 13 + 1 null-rerminate simbol
+    const char text[] = "char_ptr text";
+
+    // string literals defined with "char *" allocate at read-only memory
+    // and change it by pointer causes sigenv
+    // char* char_ptr = "char_ptr text";  // 13 + 1 null-rerminate simbol
+    char* char_ptr = const_cast<char *>(text);
     cout << char_ptr << std::endl;
 
     char* non_const_ptr = const_cast<char*>(char_ptr);
@@ -47,7 +52,7 @@ void usage_char_ptr()
     cout << "it's contain " << size / sizeof(char) << std::endl;
 
     auto m = non_const_ptr + 10;
-    *m = 'x';
+    *m = '!';
 
     cout << "mutable ptr:" << non_const_ptr << std::endl;
     cout << "not_mutable ptr:" << char_ptr << std::endl;
