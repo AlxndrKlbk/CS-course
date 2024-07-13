@@ -37,10 +37,12 @@ int main()
 {
     D d1;
     cout << std::endl;
+
     D d2 = d1;
+    cout << std::endl;
 
     return 0;
 }
 
 // d1 init: A B C D
-// d2 init: A B C D
+// d2 init: A B C d
