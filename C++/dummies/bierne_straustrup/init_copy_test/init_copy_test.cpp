@@ -35,6 +35,7 @@ class E: B, C
 public:
     E() { cout << "E"; }
     E(const E& rhs) : B(rhs), C(rhs) { cout << "e"; }
+    E& operator=(const E& rhs) {cout << "'Ope'"; return *this; }
 };
 
 template<typename T>
@@ -44,6 +45,9 @@ void t_usage()
     cout << std::endl;
 
     T t2 = t1;
+    cout << std::endl;
+
+    t2 = t1;
     cout << std::endl;
 }
 
