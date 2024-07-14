@@ -8,7 +8,6 @@ public:
     A(const A&) { cout << "a"; }
 };
 
-
 class B: public virtual A
 {
 public:
@@ -23,7 +22,6 @@ public:
     C() { cout << "C"; }
     C(const C&) { cout << "c"; }
 };
-
 
 class D: B, C
 {
