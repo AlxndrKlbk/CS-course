@@ -61,7 +61,6 @@ MString::~MString()
     delete[] mCstrPtr;
 }
 
-
 void MString::reallocate_buffer(const char* src)
 {
     std::cout << "MString::reallocate_buffer(const char* src)" << std::endl;
