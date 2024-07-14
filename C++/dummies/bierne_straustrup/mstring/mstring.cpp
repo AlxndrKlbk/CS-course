@@ -1,5 +1,6 @@
 #include "mstring.hpp"
 
+#include <algorithm>
 #include <iostream>
 #include <cstring>
 
@@ -25,6 +26,14 @@ MString::MString(const MString& rhs)
     strlcpy(mCstrPtr, rhs.mCstrPtr, mBuffSize);
 }
 
+MString::MString(MString&& rhs)
+{
+    std::cout << "MString::MString(MString&& rhs) for: " << rhs.mCstrPtr << std::endl;
+
+    std::swap(mCstrPtr, rhs.mCstrPtr);
+    std::swap(mBuffSize, rhs.mBuffSize);
+}
+
 MString& MString::operator=(const MString& src)
 {
     std::cout << "MString::operator=(const MString& src) for: " << src.mCstrPtr << std::endl;
@@ -37,10 +46,18 @@ MString& MString::operator=(const MString& src)
     return *this;
 }
 
+MString& MString::operator=(MString&& rhs)
+{
+    std::cout << "MString::operator=(MString&& rhs) for: " << rhs.mCstrPtr << std::endl;
+
+    std::swap(mCstrPtr, rhs.mCstrPtr);
+    std::swap(mBuffSize, rhs.mBuffSize);
+    return *this;
+}
+
 MString::~MString()
 {
-    std::cout << "~MString()" << std::endl;
-    std::cout << "by for string: " << mCstrPtr << std::endl;
+    std::cout << "~MString() " << "for string: " << mCstrPtr << std::endl;
     delete[] mCstrPtr;
 }
 
@@ -52,7 +69,7 @@ void MString::reallocate_buffer(const char* src)
     auto actual_size = mCstrPtr == nullptr ? 0: strlen(mCstrPtr) + 1;
     if (actual_size < str_size) {
         delete[] mCstrPtr;
-        mBuffSize = str_size + 1;
+        mBuffSize = str_size;
         mCstrPtr = new char[mBuffSize];
         std::cout << "buffer size increased" << std::endl;
     }
@@ -66,4 +83,5 @@ int main()
     str = str2;
     str = str3;
     str = str2;
+    str = MString{"rvalue_MString"};
 }

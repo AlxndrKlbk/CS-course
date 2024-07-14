@@ -12,7 +12,11 @@ public:
 
     MString(const MString&);
 
+    MString(MString&&);
+
     MString& operator=(const MString&);
+
+    MString& operator=(MString&&);
 
     ~MString();
 
