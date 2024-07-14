@@ -12,9 +12,8 @@ class B: public virtual A
 {
 public:
     B() { cout << "B"; }
-    B(const B&) { cout << "b"; }
+    B(const B& rhs) { cout << "b"; }
 };
-
 
 class C: public virtual A
 {
@@ -35,8 +34,26 @@ class E: B, C
 public:
     E() { cout << "E"; }
     E(const E& rhs) : B(rhs), C(rhs) { cout << "e"; }
-    E& operator=(const E& rhs) {cout << "'Ope'"; return *this; }
+    E& operator=(const E& rhs) {cout << "'E::oper='"; return *this; }
 };
+
+
+// non virtual impl
+class B_non_virtal: public A
+{
+public:
+    B_non_virtal() { cout << "B_non_virtal"; }
+    B_non_virtal(const B_non_virtal& rhs) : A(rhs) { cout << "b_non_virtal"; }
+};
+
+class S: public B_non_virtal
+{
+public:
+    S() { cout << "S"; }
+    S(const S& rhs) : B_non_virtal(rhs) { cout << "s"; }
+    S& operator=(const S& rhs) {cout << "'S::oper='"; return *this; }
+};
+// end no virtual
 
 template<typename T>
 void t_usage()
@@ -55,6 +72,7 @@ int main()
 {
     t_usage<D>();
     t_usage<E>();
+    t_usage<S>();
     return 0;
 }
 
