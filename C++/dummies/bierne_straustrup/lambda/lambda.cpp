@@ -32,7 +32,7 @@ int main()
     capture_lambda();
 
     // C-style function pointer
-    int (*add_one_ptr)(int) = &add_one;
+    int (*add_one_ptr)(int) = add_one;
 
     std::cout << add_one_ptr(1) << std::endl;
 
