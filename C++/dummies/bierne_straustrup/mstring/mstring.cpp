@@ -83,5 +83,7 @@ int main()
     str = str3;
     str = str2;
     str = MString{"rvalue_MString"};
+    str = "char_equeal";
+
     MString str4{str};
 }

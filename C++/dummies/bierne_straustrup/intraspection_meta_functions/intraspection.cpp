@@ -1,6 +1,7 @@
 #include <type_traits>
 #include <iostream>
 
+
 //
 struct Substitution_failure
 {
@@ -70,7 +71,6 @@ public:
 
 int main()
 {
-
     std::cout << Substitution_succeeded<int>{} << std::endl;
 
     Exist_F ef;
