@@ -1,0 +1,5 @@
+removing some data from vector with using erasi if idiom:
+
+usage:
+firt argument in comand line is the value with which to compare,
+other arguments int o double sequence of values
