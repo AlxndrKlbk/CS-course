@@ -44,5 +44,7 @@ int main(int argc, char** argv)
     vectorPrint(buff);
 
     std::cout << std::endl;
+
+    std::cout << 0x55;
     return 0;
 }
