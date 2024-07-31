@@ -49,6 +49,7 @@ add_executable(my_atoi problems/my_atoi/my_atoi.cpp )
 add_executable(merge_two_sorted_list problems/merge_two_sorted_list/merge_two_sorted_list.cpp)
 add_executable(parenthesis problems/parenthesis/parenthesis.cpp)
 add_executable(vector_filter_duplicate problems/vector_filter_duplicates/vector_filter_duplicates.cpp)
+add_executable(anagrams_str problems/anagrams_str/anagrams_str.cpp)
 
 add_subdirectory(bierne_straustrup)
 add_subdirectory(old_cpp)
