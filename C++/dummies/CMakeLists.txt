@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 cmake_policy(SET CMP0076 NEW)
 
+add_subdirectory(main_utils)
 
 add_executable(dummies main.cpp)
 add_executable(converter problems/converter/converter.cpp)
@@ -50,6 +51,15 @@ add_executable(merge_two_sorted_list problems/merge_two_sorted_list/merge_two_so
 add_executable(parenthesis problems/parenthesis/parenthesis.cpp)
 add_executable(vector_filter_duplicate problems/vector_filter_duplicates/vector_filter_duplicates.cpp)
 add_executable(anagrams_str problems/anagrams_str/anagrams_str.cpp)
+
+add_executable(two_sum problems/two_sum/two_sum.cpp)
+target_link_libraries(two_sum PUBLIC main_utils)
+target_include_directories(two_sum PUBLIC
+                          "${PROJECT_BINARY_DIR}"
+                          "${PROJECT_SOURCE_DIR}/main_utils"
+)
+
+message("THERE IS ME:" ${PROJECT_SOURCE_DIR}/main_utils)
 
 add_subdirectory(bierne_straustrup)
 add_subdirectory(old_cpp)
