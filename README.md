@@ -323,3 +323,6 @@
 #### Quantum Computing
 [CERN course](https://russol.info/quantum)
 
+
+#### C++ iso
+[Min cpp iso](https://isocpp.org/faq)

@@ -1,5 +1,7 @@
+#include "virtual_inheritance.cpp"
 #include <iostream>
 using namespace std;
+
 
 class A
 {
@@ -73,6 +75,9 @@ int main()
     t_usage<D>();
     t_usage<E>();
     t_usage<S>();
+
+    test();
+
     return 0;
 }
 
