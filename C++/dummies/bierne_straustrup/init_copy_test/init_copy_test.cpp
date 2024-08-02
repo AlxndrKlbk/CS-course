@@ -1,5 +1,7 @@
 #include "virtual_inheritance.cpp"
+#include "base_with_pure_virtual_implemented.cpp"
 #include <iostream>
+
 using namespace std;
 
 
@@ -77,6 +79,7 @@ int main()
     t_usage<S>();
 
     test();
+    test_base_with_pure_virtual_implementation();
 
     return 0;
 }

@@ -12,11 +12,11 @@ public:
     void basePrint() { print(); }
 };
 
-class Base {
+class Base1 {
 public:
-    Base() { print(); }
+    Base1() { print(); }
 
-    virtual ~Base() { std::cout << "destruction: "; print(); }
+    virtual ~Base1() { std::cout << "destruction: "; print(); }
 
     // void print() { std::cout << " Base print"<< std::endl; }    //1
 
@@ -25,11 +25,11 @@ public:
     void basePrint() { print(); }
 };
 
-class Derived : public Base {
+class Derived1 : public Base1 {
 public:
-    Derived() { print(); }
+    Derived1() { print(); }
 
-    ~Derived() { std::cout << "destruction: " ; print(); }
+    ~Derived1() { std::cout << "destruction: " ; print(); }
 
     // virtual void print() { std::cout << " Derived print" << std::endl; }    //1
 
@@ -42,7 +42,7 @@ public:
 static void test() {
     std::cout << std::endl << "Test Derived and Base with virtual methods" << std::endl;
 
-    Base* ptr = new Derived;
+    Base1* ptr = new Derived1;
     ptr->basePrint();
     delete ptr;
 
@@ -56,6 +56,6 @@ static void test() {
     // catch   (...) {
     // }    // 3
     std::cout << "BaseWithoutVirtual: " << sizeof(BaseWithoutVirtual) << std::endl;
-    std::cout << "Base: " << sizeof(Base) << std::endl;
-    std::cout << "Derived: " << sizeof(Derived) << std::endl;
+    std::cout << "Base: " << sizeof(Base1) << std::endl;
+    std::cout << "Derived: " << sizeof(Derived1) << std::endl;
 }

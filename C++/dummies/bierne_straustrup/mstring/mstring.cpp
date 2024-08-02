@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <iostream>
 #include <cstring>
+#include <assert.h>
 
 
 MString::MString()
@@ -55,6 +56,33 @@ MString& MString::operator=(MString&& rhs)
     return *this;
 }
 
+MString& MString::operator+(const char chr)
+{
+    if (!mCstrPtr) {reallocate_buffer(""); };   // allocate memory if it isnot cuptured before
+    auto actualSize = mCstrPtr == nullptr ? 0: strlen(mCstrPtr) + 1;
+
+    if (actualSize + 1 <= mBuffSize) {
+        int newSize = mBuffSize * 2;
+        char * tmp = new char[newSize];
+        strlcpy(tmp, mCstrPtr, mBuffSize);
+        std::swap(mCstrPtr, tmp);
+        mBuffSize = newSize;
+        delete[] tmp;
+    }
+
+    char * cursor = mCstrPtr + actualSize;
+    *cursor = chr;
+    *(cursor++) = '\0';
+    return *this;
+}
+
+std::ostream& MString::write(std::ostream& os) const
+{
+    auto size = strlen(mCstrPtr);
+    os.write(mCstrPtr, size);
+    return os;
+}
+
 MString::~MString()
 {
     std::cout << "~MString() " << "for string: " << mCstrPtr << std::endl;
@@ -74,6 +102,54 @@ void MString::reallocate_buffer(const char* src)
     }
 }
 
+std::vector<MString> MString::split(const char sep) const
+{
+    std::vector<MString> result;
+
+    if (!mBuffSize) {
+        return result;
+    }
+
+    const char * cursor = mCstrPtr;
+
+    int size = 128;
+    char buff[size];
+
+    while(*cursor == sep) {
+        cursor++;
+    }
+    const char * tmp = cursor;
+
+
+    auto cstrSlice = [&]() {
+        int i = 0;
+        for(; i < size && (int*)&*tmp != (int*)&*cursor; i++)
+        {
+            buff[i] = *tmp;
+            tmp++;
+        }
+        buff[i] = '\0';
+
+        while(*cursor == sep) {
+            cursor++;
+        }
+        tmp = cursor;
+        MString singleWord{buff};
+        result.emplace_back(singleWord);
+    };
+
+    while( *tmp != '\0')
+    {   if (*cursor == sep) {
+            cstrSlice();
+        } else if (*cursor == '\0' && *tmp != '\0') {
+            cstrSlice();
+        }
+        cursor++;
+    }
+
+    return result;
+}
+
 int main()
 {
     MString str;    // default constructor
@@ -86,4 +162,18 @@ int main()
     str = "char_equeal";
 
     MString str4{str};
+
+    MString toSplitStr{"  string    for   test  split"};
+    assert(toSplitStr.split().size() == 4);
+
+    toSplitStr = "    test2   ";
+    assert(toSplitStr.split().size() == 1);
+
+    toSplitStr = "test3   t3";
+    auto res = toSplitStr.split();
+    assert(res.size() == 2);
+
+    for (auto const& str : res) {
+        std::cout << str << std::endl;
+    }
 }
