@@ -21,7 +21,7 @@ MString::MString(const char* cstr)
 
 MString::MString(const MString& rhs)
 {
-    std::cout << "MString(const MString& rhs)" << std::endl;
+    std::cout << "MString(const MString& rhs)" << rhs.mCstrPtr << std::endl;
 
     reallocate_buffer(rhs.mCstrPtr);
     strlcpy(mCstrPtr, rhs.mCstrPtr, mBuffSize);
@@ -58,7 +58,7 @@ MString& MString::operator=(MString&& rhs)
 
 MString& MString::operator+(const char chr)
 {
-    if (!mCstrPtr) {reallocate_buffer(""); };   // allocate memory if it isnot cuptured before
+    if (!mCstrPtr) {reallocate_buffer(""); };   // allocate memory if it is not cuptured before
     auto actualSize = mCstrPtr == nullptr ? 0: strlen(mCstrPtr) + 1;
 
     if (actualSize + 1 <= mBuffSize) {
@@ -85,8 +85,10 @@ std::ostream& MString::write(std::ostream& os) const
 
 MString::~MString()
 {
-    std::cout << "~MString() " << "for string: " << mCstrPtr << std::endl;
-    delete[] mCstrPtr;
+    if (mCstrPtr != nullptr){
+        std::cout << "~MString() " << "for string: " << mCstrPtr << std::endl;
+        delete[] mCstrPtr;
+    }
 }
 
 void MString::reallocate_buffer(const char* src)
@@ -123,7 +125,7 @@ std::vector<MString> MString::split(const char sep) const
 
     auto cstrSlice = [&]() {
         int i = 0;
-        for(; i < size && (int*)&*tmp != (int*)&*cursor; i++)
+        for(; i < size && tmp != cursor; i++)
         {
             buff[i] = *tmp;
             tmp++;
@@ -135,7 +137,7 @@ std::vector<MString> MString::split(const char sep) const
         }
         tmp = cursor;
         MString singleWord{buff};
-        result.emplace_back(singleWord);
+        result.emplace_back(std::move(singleWord));
     };
 
     while( *tmp != '\0')
@@ -159,10 +161,11 @@ int main()
     str = str3;
     str = str2;
     str = MString{"rvalue_MString"};
-    str = "char_equeal";
+    str = "char_equal";
 
     MString str4{str};
 
+    std::cout << std::endl << "Start split test" << std::endl;
     MString toSplitStr{"  string    for   test  split"};
     assert(toSplitStr.split().size() == 4);
 
@@ -176,4 +179,6 @@ int main()
     for (auto const& str : res) {
         std::cout << str << std::endl;
     }
+
+    toSplitStr = toSplitStr + 't';
 }

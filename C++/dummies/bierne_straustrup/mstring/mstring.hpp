@@ -27,7 +27,6 @@ public:
 
     std::vector<MString> split(const char sep = ' ') const;
 
-
 private:
     void reallocate_buffer(const char* src);
 
