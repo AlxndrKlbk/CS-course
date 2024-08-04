@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 cmake_policy(SET CMP0076 NEW)
 
 add_subdirectory(main_utils)
+add_subdirectory(multithreading)
+add_subdirectory(bierne_straustrup)
+add_subdirectory(old_cpp)
 
 add_executable(dummies main.cpp)
 add_executable(converter problems/converter/converter.cpp)
@@ -59,11 +62,6 @@ target_include_directories(two_sum PUBLIC
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/main_utils"
 )
-
-message("THERE IS ME:" ${PROJECT_SOURCE_DIR}/main_utils)
-
-add_subdirectory(bierne_straustrup)
-add_subdirectory(old_cpp)
 
 target_include_directories( ${PROJECT_NAME} PUBLIC
     problems/serializable_list_node
