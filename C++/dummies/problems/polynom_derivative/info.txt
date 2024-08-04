@@ -1,0 +1,10 @@
+Get from stdin string with polynom and print it's derivative
+
+poly coefficient only int and degree only positive int:
+
+Sample Input 1:
+x^2+x
+
+Sample Output 1:
+2*x+1
+
