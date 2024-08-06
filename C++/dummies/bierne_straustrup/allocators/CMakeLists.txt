@@ -1,0 +1,1 @@
+add_executable(small_allocator small_allocator/small_allocator.cpp)

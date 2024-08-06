@@ -1,0 +1,12 @@
+leak search with 'valgrind'
+
+usage like
+# valgrind --leak-check=yes ./leak
+
+program should be compiled with debug symbols
+
+
+------
+As another options possible to use tcmalloc
+
+# LD_PRELOAD='libtcmalloc.so.4' HEAPCHECK=normal ./leak
