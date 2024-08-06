@@ -56,14 +56,22 @@ public:
     };
 
     void *ReAlloc(void* pointer, unsigned int size) {
-        void * memoryLocation = Alloc(size);
-
-        if (!memoryLocation) {
+        void * memoryLocation = nullptr;
+        if (size + sizeof(memControlBlock) < (static_cast<memControlBlock *>(pointer) - 1)->size) {
+            memoryLocation = pointer;
             return memoryLocation;
         }
 
-        for (int i = 0; i < size; i++) {
-            *(static_cast<char* >(memoryLocation) + i) = *(static_cast<char*>(pointer) + i);
+        memoryLocation = Alloc(size);
+        if (!memoryLocation) {          // nullptr - cant allocate expected place of memory
+            return memoryLocation;
+        }
+
+        // memory allocated, copy data to new place
+        if (pointer != nullptr) {
+            for (int i = 0; i < size; i++) {
+                *(static_cast<char* >(memoryLocation) + i) = *(static_cast<char*>(pointer) + i);
+            }
         }
 
         return memoryLocation;
