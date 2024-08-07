@@ -8,7 +8,7 @@ add_executable(init_copy_test
     init_copy_test/base_with_pure_virtual_implemented.cpp
 )
 add_executable(animals animals/animals.cpp)
-add_executable(mstring mstring/mstring.cpp mstring/mstring.hpp)
+add_executable(mstring mstring/mstring.cpp mstring/mstring.hpp mstring/c_split.cpp)
 add_executable(lambda lambda/lambda.cpp)
 add_executable(structured_bindings structured_bindings/structured_bindings.cpp)
 add_executable(exception exception/exception.cpp)

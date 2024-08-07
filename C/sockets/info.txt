@@ -1,0 +1,152 @@
+Конспект "Сокеты Беркли"
+Немного о сокетах:
+
+    https://en.wikipedia.org/wiki/Berkeley_sockets
+
+И о протоколах:
+
+    https://en.wikipedia.org/wiki/Internet_Protocol
+    https://en.wikipedia.org/wiki/IPv4
+    https://en.wikipedia.org/wiki/IPv6
+    https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+    https://en.wikipedia.org/wiki/User_Datagram_Protocol
+
+Более серьезная литература:
+
+    https://tools.ietf.org/html/rfc791
+    https://tools.ietf.org/html/rfc3513
+    https://en.wikipedia.org/wiki/Transmission_Control_Protocol#RFC
+    https://en.wikipedia.org/wiki/User_Datagram_Protocol#RFC_references
+
+
+socket(...)
+
+Создает сокет и возвращает дескриптор сокета.
+
+int socket(int domain, int type, int protocol);
+
+Домен (domain) может быть следующим:
+
+    AF_INET - для IPv4,
+    AF_INET6 - для IPv6,
+    AF_UNIX - для Unix-сокетов ( https://en.wikipedia.org/wiki/Unix_domain_socket ).
+
+Тип (type) может быть следующий:
+
+    SOCK_STREAM - для TCP,
+    SOCK_DGRAM - для UDP.
+
+Протокол (proto) приравниваем к нулю - автоматический выбор.
+
+bind(...)
+Осуществляет "привязку" IP-адреса и порта к серверному сокету (в том числе дейтаграмному).
+
+bind(int sockfd, struct sockaddr *addr, socklet_t addrlen);
+
+
+Первый параметр - дескриптор сокета.
+Второй параметр. Тут есть варианты:
+
+    IPv4. Пройдемся по порядку.
+
+Структура называется sockaddr_in. "_in" тут означает INET (вспомните AF_INET!).
+
+sockaddr_in sa;
+
+
+Первым делом мы указываем "домен" - AF_INET. Это необходимо сделать для того, чтобы было понимание, к какому типу впоследствии приводить sockaddr.
+
+sa.sin_family = AF_INET;
+
+
+Далее, мы указываем порт. Указывать его нужно в виде числа в сетевом порядке байт. Для того, чтобы этот порядок байт получить, используем функцию htons (для 16-битного числа, коим и является порт. А для 32-битного числа, например, для адреса - htonl).
+
+sa.sin_port = htons(12345);
+
+
+И, наконец, указываем адрес, к которому привязываем сокет. А тут есть несколько вариантов.
+Мы можем использовать константы:
+
+sa.sin_addr.s_addr = htonl(INADDR_LOOPBACK); // 127.0.0.1
+sa.sin_addr.s_addr = htonl(INADDR_ANY); // 0.0.0.0
+
+Последняя константа позволяет привязать сокет на все сетевые интерфейсы сервера.
+Мы можем использовать устаревшую функцию inet_addr (только для AF_INET):
+
+sa.sin_addr.s_addr = inet_addr("10.0.0.1");
+
+Мы можем использовать современную функцию inet_pton (AF_INET и AF_INET6):
+
+inet_pton(AF_INET, "10.0.0.1", &sa);
+
+
+    Unix. Тут все проще простого.
+
+struct sockaddr_un sa;
+sa.sun_family = AF_UNIX;
+strcpy(sa.sun_path, "/tmp/demo.sock"); // Путь до сокета.
+
+
+Третий параметр - размер структуры, которая был передана вторым параметром.
+Возвращает - 0 при успехе и -1 при ошибке.
+
+listen(...)
+
+Переводит сокет в режим приема новых соединений (TCP). Параметра два:
+
+int listen(int sockfd /* Дескриптор сокета */, int backlog);
+
+Параметр backlog - максимальное длина очереди ожидающих соединения. Предельное значение - SOMAXCONN.
+Возвращает - 0 при успехе и -1 при ошибке.
+
+accept(...)
+Принимает новое соединение и возвращает дескриптор на него.
+
+int accept(int sockfd /* Слушающий сокет */, struct sockaddr *addr, socklen_t *addrlen);
+
+
+Тут важно акцентировать внимание на параметрах addr и addrlen. Они могут быть NULL и NULL, а могут быть указателями, и тогда по addr станет доступна структура (например, sockaddr_in), описывающая клиента (в т.ч. его IP-адрес), а по addrlen будет доступна длина этой структуры.
+
+connect(...)
+Противоположность accept.
+
+int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+
+ 
+Вызывается на клиентском сокете, запускает процесс соединения с сервером. Адрес сервера передается через addr и addrlen.
+send(...)/recv(...)
+
+ssize_t send(int sockfd, const void *buf, size_t len, int flags);
+ssize_t recv(int sockfd, void *buf, size_t len, int flags);
+
+ 
+Запись в сокет и чтение из сокета. Главное отличие от read/write (которые, кстати, тоже допустимы) - наличие флагов flags. Мы обычно заинтересованы в флаге MSG_NOSIGNAL, который подавляет сигнал SIGPIPE при попытке работы с разорванным соединением.
+shutdown(...)
+Разрываем соединение - на чтение или/и на запись.
+
+int shutdown(int sockfd, int how /* SHUT_RD, SHUT_WR, SHUT_RDWR */);
+
+ 
+sendto(...)/recvfrom(...)
+Это версии send/recv для UPD. Они содержат параметры addr и addrlen, необходимые для UDP (адрес получателя или отправителя).
+
+ssize_t sendto(int sockfd, const void *buf, size_t len, int flags, const struct sockaddr *dest_addr, socklen_t addrlen);
+ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *src_addr, socklen_t *addrlen);
+
+ 
+
+Перевод сокетов в неблокирующий режим
+
+int set_nonblock(int fd)
+{
+    int flags;
+#if defined(O_NONBLOCK)
+    if (-1 == (flags = fcntl(fd, F_GETFL, 0)))
+        flags = 0;
+    return fcntl(fd, F_SETFL, flags | O_NONBLOCK);
+#else
+    flags = 1;
+    return ioctl(fd, FIOBIO, &flags);
+#endif
+} 
+

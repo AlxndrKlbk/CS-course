@@ -122,7 +122,6 @@ std::vector<MString> MString::split(const char sep) const
     }
     const char * tmp = cursor;
 
-
     auto cstrSlice = [&]() {
         int i = 0;
         for(; i < size && tmp != cursor; i++)
@@ -151,6 +150,9 @@ std::vector<MString> MString::split(const char sep) const
 
     return result;
 }
+
+
+void test_c_cplit();
 
 int main()
 {
@@ -181,4 +183,7 @@ int main()
     }
 
     toSplitStr = toSplitStr + 't';
+
+    std::cout << std::endl << "c_split_test:" << std::endl;
+    test_c_cplit();
 }
