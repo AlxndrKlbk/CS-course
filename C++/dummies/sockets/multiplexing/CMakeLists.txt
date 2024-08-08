@@ -1,2 +1,3 @@
 
 add_executable(select_multiplexing select_multiplexing/select_multiplexing.cpp)
+add_executable(pool_multiplexing pool_multiplexing/pool_multiplexing.cpp)
