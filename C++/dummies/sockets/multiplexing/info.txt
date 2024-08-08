@@ -1,0 +1,1 @@
+Some approach to gain multiplexing on network request processing
