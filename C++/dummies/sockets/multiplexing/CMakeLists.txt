@@ -1,2 +1,2 @@
 
-add_executable(multiplexing multiplexing.cpp)
+add_executable(select_multiplexing select_multiplexing/select_multiplexing.cpp)
