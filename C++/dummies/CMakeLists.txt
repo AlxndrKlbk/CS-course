@@ -10,6 +10,7 @@ add_subdirectory(main_utils)
 add_subdirectory(multithreading)
 add_subdirectory(bierne_straustrup)
 add_subdirectory(old_cpp)
+add_subdirectory(sockets/multiplexing)
 
 add_executable(dummies main.cpp)
 add_executable(converter problems/converter/converter.cpp)
