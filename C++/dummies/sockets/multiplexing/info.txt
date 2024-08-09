@@ -1,1 +1,3 @@
 Some approach to gain multiplexing on network request processing
+
+epoll - can hold 10k connections

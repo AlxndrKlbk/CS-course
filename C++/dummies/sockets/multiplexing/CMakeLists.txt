@@ -2,3 +2,4 @@
 add_executable(select_multiplexing select_multiplexing/select_multiplexing.cpp)
 add_executable(poll_multiplexing poll_multiplexing/poll_multiplexing.cpp)
 add_executable(epoll_multiplexing epoll_multiplexing/epoll_multiplexing.cpp)
+add_executable(epoll_chat epoll_chat/epoll_chat.cpp)
