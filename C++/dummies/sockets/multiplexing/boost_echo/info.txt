@@ -1,0 +1,14 @@
+"boost::asio".
+
+Официальная документация (с примерами): http://www.boost.org/doc/libs/1_60_0/doc/html/boost_asio.html
+
+Цикл статей на хабре:
+
+    Глава 1 - http://habrahabr.ru/post/192284/
+    Глава 2 (Часть 1) - http://habrahabr.ru/post/193038/
+    Глава 2 (Часть 2) - http://habrahabr.ru/post/195006/
+    Глава 3 - http://habrahabr.ru/post/195386/
+    Глава 4 - http://habrahabr.ru/post/195794/
+    Глава 5 - http://habrahabr.ru/post/196354/
+    Глава 6 - http://habrahabr.ru/post/196888/
+    Глава 7 - http://habrahabr.ru/post/197392/
