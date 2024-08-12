@@ -1,0 +1,7 @@
+send.cpp create queue and write message,
+recv.cpp read meassage from existing queue
+
+
+- using key 10 to identify queue
+- looks to current state with "ipcs" command
+- remove if exist with "ipcrm"
