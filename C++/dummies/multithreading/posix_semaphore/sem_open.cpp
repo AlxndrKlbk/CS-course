@@ -26,13 +26,12 @@ int main(int argc, char ** argv) {
     }
 
     printf("Semaphore is taken.\nWaiting for it to be dropped.\n");
-    auto sem_flag = sem_wait(sem);
-    if ( sem_flag < 0 )
-        perror("sem_wait");
 
-    sem_flag = sem_close(sem);
-    if ( sem_flag < 0 )
-        perror("sem_close");
+    sem_wait(sem);
+    perror("sem_wait");
+
+    sem_close(sem);
+    perror("sem_close");
 
     return 0;
 }
