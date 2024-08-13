@@ -57,6 +57,7 @@ add_executable(vector_filter_duplicate problems/vector_filter_duplicates/vector_
 add_executable(anagrams_str problems/anagrams_str/anagrams_str.cpp)
 add_executable(anagram_groups problems/anagram_groups/anagram_groups.cpp)
 add_executable(polynom_derivative problems/polynom_derivative/polynom_derivative.cpp)
+add_executable(calc_integral problems/calc_integral/calc_integral.cpp)
 
 add_executable(two_sum problems/two_sum/two_sum.cpp)
 target_link_libraries(two_sum PUBLIC main_utils)
