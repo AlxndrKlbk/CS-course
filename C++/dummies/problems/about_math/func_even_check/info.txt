@@ -6,7 +6,7 @@ need to check this function to parity
 arguments should be given as path to whis file from command line
 
 common idea:
-use Leibnitz integral and property of even
+use Leibnitz integral and property of even functions
 
 #TODO
 # implement later some RTTI container for different types of integers in files
