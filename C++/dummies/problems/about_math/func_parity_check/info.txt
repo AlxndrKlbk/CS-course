@@ -1,7 +1,0 @@
-in presented files first line is show number of presented points,
-next lines contain ponit (x, y)
-
-need to check this function parity
-
-arguments should be given as path to whis file from command line
-

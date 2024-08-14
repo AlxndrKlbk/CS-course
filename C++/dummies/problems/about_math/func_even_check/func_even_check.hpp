@@ -194,7 +194,7 @@ std::optional<typename std::vector<std::pair<T, T>>::iterator> get_mid(std::vect
  * @return true if function is parity
  */
 template <typename T>
-bool check_func_parity(std::vector<std::pair<T, T>>&& points)
+bool check_func_even(std::vector<std::pair<T, T>>&& points)
 {
     std::sort(points.begin(),
               points.end(),

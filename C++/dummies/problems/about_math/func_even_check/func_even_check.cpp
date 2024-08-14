@@ -1,4 +1,4 @@
-#include "func_parity_check.hpp"
+#include "func_even_check.hpp"
 
 #include <assert.h>
 
@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    auto is_parity = check_func_parity(std::move(intPoints.value()));
+    auto is_parity = check_func_even(std::move(intPoints.value()));
     std::cout << is_parity << std::endl;
 
 
@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    is_parity = check_func_parity(std::move(longPoints.value()));
+    is_parity = check_func_even(std::move(longPoints.value()));
     std::cout << is_parity << std::endl;
 
     return 0;

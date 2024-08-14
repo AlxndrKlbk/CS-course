@@ -1,0 +1,13 @@
+in presented files first line is show number of presented points,
+next lines contain point (x, y) for function
+
+need to check this function to parity
+
+arguments should be given as path to whis file from command line
+
+common idea:
+use Leibnitz integral and property of even
+
+#TODO
+# implement later some RTTI container for different types of integers in files
+# try to rework code, reduce amount of templates
