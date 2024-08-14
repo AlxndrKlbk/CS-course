@@ -11,6 +11,7 @@ add_subdirectory(multithreading)
 add_subdirectory(bierne_straustrup)
 add_subdirectory(old_cpp)
 add_subdirectory(sockets/multiplexing)
+add_subdirectory(problems/about_math/)
 
 add_executable(dummies main.cpp)
 add_executable(converter problems/converter/converter.cpp)
@@ -57,7 +58,6 @@ add_executable(vector_filter_duplicate problems/vector_filter_duplicates/vector_
 add_executable(anagrams_str problems/anagrams_str/anagrams_str.cpp)
 add_executable(anagram_groups problems/anagram_groups/anagram_groups.cpp)
 add_executable(polynom_derivative problems/polynom_derivative/polynom_derivative.cpp)
-add_executable(calc_integral problems/calc_integral/calc_integral.cpp)
 add_executable(ladder_to_a problems/ladder_to_a/ladder_to_a.cpp)
 
 add_executable(two_sum problems/two_sum/two_sum.cpp)
