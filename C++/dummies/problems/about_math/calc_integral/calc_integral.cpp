@@ -19,5 +19,7 @@ int main(int argc, char** argv) {
 
     std::cout <<  intSquare << std::endl;
 
+    std::cout << 3 / 5 << std::endl;
+
     return 0;
 }
