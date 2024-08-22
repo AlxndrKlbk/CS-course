@@ -16,7 +16,7 @@ void runB(bool& value) {
 
 /*
  *  No quaranties that refered 'value' will be true, because ThreadA can be interrupted and ThreadB can change 'values' state
- * /
+ */
 int main() {
     for(int i = 0; i < 20; i++) {
         bool value = true; //1
