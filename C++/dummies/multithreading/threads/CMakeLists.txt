@@ -4,3 +4,5 @@ add_executable(concurent_access concurent_access.cpp)
 add_executable(concurent_access2 concurent_access2.cpp)
 add_executable(condition_variable_test condition_variable_test.cpp)
 add_executable(thread_save_queue thread_save_queue.cpp)
+
+add_subdirectory(restaurant)
