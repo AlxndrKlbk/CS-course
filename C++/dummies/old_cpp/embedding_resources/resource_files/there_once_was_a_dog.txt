@@ -1,0 +1,8 @@
+    Dog: "Well, are you..."
+
+    Wolf: "Thank you."
+
+    The wolf passes through the fence.
+
+    Wolf: “You come in if anything happens.”
+
