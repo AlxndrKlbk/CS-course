@@ -289,8 +289,10 @@
 </table>
 
 
-#### OS courses
-[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)
+#### OS courses and resources
+[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)/
+[Linux kernel userspace API](https://www.kernel.org/doc/html/v4.18/userspace-api/index.html)/
+[OSDEV](https://wiki.osdev.org/Expanded_Main_Page)
 
 #### Networking  Filesystem Hierarchy Standard courses
 [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
@@ -305,14 +307,18 @@
 
 #### Algo + Math
 [MIT open course: Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/)\
-[MIT open course: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)
+[MIT open course: Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/)\
+[MathAcademy](https://mathacademy.com/)\
+[Курс по C (задачник с курса Константина Владимирова на степике)](https://stepik.org/course/209865/promo)\
+[Курс по C (задачник с курса Константина Владимирова на яндексе)](https://contest.yandex.ru/contest/66459/enter/?retPage=)
 
 #### Distributed Systems
 [MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
 #### Generally
 [Teach yourself computer science](https://teachyourselfcs.com)\
-[Rust webassebmly](https://bcnrust.github.io/devbcn-workshop/index.html)
+[Rust webassebmly](https://bcnrust.github.io/devbcn-workshop/index.html)\
+[0DE5](https://www.0de5.net/explore)
 
 #### Compilers/Disassembly 
 [interactive online compiler Godbolt](https://godbolt.org/)\
@@ -327,7 +333,6 @@
 
 #### Quantum Computing
 [CERN course](https://russol.info/quantum)
-
 
 #### C++ iso
 [Min cpp iso](https://isocpp.org/faq)
