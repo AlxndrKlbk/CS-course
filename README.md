@@ -101,6 +101,11 @@
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/f/fa/CompilersBook2ed.png" alt="image" width="150" height="auto"></td>
 		<td> in personal library &#9989 </td>
 	</tr>
+	<tr>
+		<td> <a href="https://www.chitai-gorod.ru/product/optimiziruyushchie-kompilyatory-struktura-i-algoritmy-3059667?srsltid=AfmBOopgOsorCZ6AfeFXnwiBSruTdxy4KRTGLLG9-MsUptEwppQMSsVY"> Оптимизирующие компиляторы. Структура и алгоритмы</a> </td>
+		<td><img src="https://content.img-gorod.ru/pim/products/images/9e/4e/01917867-c7a9-7203-9c9a-204c28a99e4e.jpg?width=0&height=2400&fit=bounds" alt="image" width="150" height="auto"></td>
+		<td> search &#x25a2 </td>
+	</tr>
 </table>
 
 ## Networking 
