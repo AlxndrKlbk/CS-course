@@ -334,5 +334,6 @@
 #### Quantum Computing
 [CERN course](https://russol.info/quantum)
 
-#### C++ iso
-[Min cpp iso](https://isocpp.org/faq)
+#### C++ materials
+[Min cpp iso](https://isocpp.org/faq)\
+[Материалы по С/C++ МФТИ Владимиров К.И.](https://disk.yandex.ru/d/XAd4yMcX8bjKsw)
