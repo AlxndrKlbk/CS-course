@@ -13,6 +13,7 @@ add_subdirectory(old_cpp)
 add_subdirectory(sockets/multiplexing)
 add_subdirectory(problems/about_math/)
 add_subdirectory(problems/missing_number)
+add_subdirectory(problems/disappeared_numbers_in_array)
 
 add_executable(dummies main.cpp)
 add_executable(converter problems/converter/converter.cpp)
