@@ -1,0 +1,35 @@
+#include <vector>
+#include <algorithm>
+
+#include <cassert>
+
+class Solution {
+public:
+
+    /**
+     * @brief climbStairs - ways of movement to N step is sum ways to (n-1) and  ways (n+2)
+     * @param n - steps to stair
+     * @return count of distinct ways
+     */
+    int climbStairs(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int first = 1, second = 2;
+        for (int i = 3; i <= n; i++) {
+            int third = first + second;
+            first = second;
+            second = third;
+        }
+        return second;
+    }
+};
+
+int main(int argc, char** argv) {
+    std::vector<int> vec = {4,1,2,1,2};
+
+    auto solution = Solution();
+    auto&& res = solution.climbStairs(5);
+    assert(res == 7);
+    return 0;
+}
