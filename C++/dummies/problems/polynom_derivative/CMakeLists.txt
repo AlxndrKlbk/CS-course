@@ -1,0 +1,2 @@
+
+add_executable(polynom_derivative polynom_derivative.cpp)

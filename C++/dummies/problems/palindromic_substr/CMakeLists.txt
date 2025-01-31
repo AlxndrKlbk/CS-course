@@ -1,0 +1,3 @@
+
+add_executable(palindromic_substr palindromic_substr.cpp)
+add_executable(palindromic_substr2 palindromic_substr2.cpp)

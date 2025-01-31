@@ -1,0 +1,2 @@
+
+add_executable(remove_nth_elem_node_list remove_nth_elem_node_list.cpp)

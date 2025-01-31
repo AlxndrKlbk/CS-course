@@ -1,0 +1,2 @@
+
+add_executable(merge_two_sorted_list merge_two_sorted_list.cpp)

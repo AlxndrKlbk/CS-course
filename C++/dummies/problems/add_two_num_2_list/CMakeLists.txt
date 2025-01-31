@@ -1,0 +1,3 @@
+
+add_executable(add_two_num_2_list add_two_num_2_list.cpp)
+add_executable(add_two_num_2_list_shared add_two_num_2_list_shared.cpp)
