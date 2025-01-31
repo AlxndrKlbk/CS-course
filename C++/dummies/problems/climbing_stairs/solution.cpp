@@ -15,13 +15,13 @@ public:
         if (n <= 2) {
             return n;
         }
-        int first = 1, second = 2;
+        int n_minus_1_ways = 1, n_minus_2_ways = 2;
         for (int i = 3; i <= n; i++) {
-            int third = first + second;
-            first = second;
-            second = third;
+            int n_ways = n_minus_1_ways + n_minus_2_ways;
+            n_minus_1_ways = n_minus_2_ways;
+            n_minus_2_ways = n_ways;
         }
-        return second;
+        return n_minus_2_ways;
     }
 };
 
