@@ -13,6 +13,7 @@ public:
         for (int i = 1; i < prices.size(); i++) {
             if (buyPrice > prices[i]) {
                 buyPrice = prices[i];
+                continue;
             }
 
             profit = std::max(profit, prices[i] - buyPrice);
