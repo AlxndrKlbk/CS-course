@@ -8,8 +8,8 @@ using std::string;
 
 int main( int argc, char *argv[] )
 {
-    void print = []( string% str) {  cout << str << endl ;};
+    void (*print)(string&) = []( string& str) {  cout << str << endl ;};
     string str = argv[1];
-    print( str );
-    return 0
+    print(str);
+    return 0;
 }
