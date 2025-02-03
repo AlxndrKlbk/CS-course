@@ -39,6 +39,7 @@ add_subdirectory(k_weakest_rows_matrix)
 add_subdirectory(ladder_to_a)
 add_subdirectory(lambda_cout)
 add_subdirectory(list_node_cycle)
+add_subdirectory(list_node_middle)
 
 #M
 add_subdirectory(missing_number)
