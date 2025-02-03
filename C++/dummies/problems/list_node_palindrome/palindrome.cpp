@@ -17,6 +17,7 @@ public:
     bool isPalindrome(ListNode* head)
     {
         ListNode *slow = head, *fast = head;
+        // search mid element
         while(fast!=NULL && fast->next != NULL ){
             slow = slow->next;
             fast = fast->next->next;
@@ -24,6 +25,8 @@ public:
         if(fast != NULL && fast->next == NULL){
             slow = slow->next;
         }
+
+        // reverse nodes after mid
         ListNode *prev = NULL;
         ListNode *temp = NULL;
         while( slow != NULL && slow->next != NULL )
@@ -38,6 +41,8 @@ public:
             slow->next = prev;
         }
         fast = head;
+
+        // traverse from head and back and check equality
         while( slow && fast ){
             if( slow->val != fast->val )
             {
