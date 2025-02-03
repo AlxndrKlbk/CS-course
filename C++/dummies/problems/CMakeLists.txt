@@ -42,6 +42,7 @@ add_subdirectory(list_node_cycle)
 add_subdirectory(list_node_middle)
 add_subdirectory(list_node_reverse)
 add_subdirectory(list_node_palindrome)
+add_subdirectory(list_node_remove_item)
 
 #M
 add_subdirectory(missing_number)
