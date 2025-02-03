@@ -41,6 +41,7 @@ add_subdirectory(lambda_cout)
 add_subdirectory(list_node_cycle)
 add_subdirectory(list_node_middle)
 add_subdirectory(list_node_reverse)
+add_subdirectory(list_node_palindrome)
 
 #M
 add_subdirectory(missing_number)
@@ -53,7 +54,6 @@ add_subdirectory(merge_two_sorted_list)
 add_subdirectory(negative_in_matrix)
 
 #P
-add_subdirectory(palindrome)
 add_subdirectory(parenthesis)
 add_subdirectory(palindromic_substr)
 add_subdirectory(polynom_derivative)

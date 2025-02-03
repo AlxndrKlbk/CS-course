@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <assert.h>
 
 //using namespace std;;
 
@@ -51,6 +52,18 @@ public:
 
 int main()
 {
+    ListNode first(1);
+    ListNode second(2);
+    ListNode third(2);
+    ListNode fourth(1);
+    first.next = &second;
+    second.next = &third;
+    third.next = &fourth;
+    fourth.next = nullptr;
+
+    Solution solution;
+    assert(solution.isPalindrome(&first) == true);
+
     return 0;
 }
 
