@@ -63,8 +63,10 @@ add_subdirectory(negative_in_matrix)
 #P
 add_subdirectory(parenthesis)
 add_subdirectory(palindromic_substr)
-add_subdirectory(polynom_derivative)
+add_subdirectory(path_sum)
 add_subdirectory(phone_number_digits)
+add_subdirectory(polynom_derivative)
+
 
 #R
 add_subdirectory(romans_to_int)
