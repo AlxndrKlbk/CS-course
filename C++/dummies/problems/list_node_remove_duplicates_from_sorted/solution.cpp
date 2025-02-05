@@ -11,28 +11,17 @@ struct ListNode {
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if (!head || !head->next) {
-            return head;
-        }
+        ListNode* res = head;
 
-        ListNode *cur = head;
-        ListNode *tmp = head->next;
-
-        while (tmp) {
-            if (tmp->val == cur->val) {
-                tmp = tmp->next;
-                continue;
+        while (head && head->next) {
+            if (head->val == head->next->val) {
+                head->next = head->next->next;
             } else {
-                cur->next = tmp;
-                cur = cur->next;
+                head = head->next;
             }
         }
 
-        if (cur->next != tmp) {
-            cur->next = tmp;
-        }
-
-        return head;
+        return res;
     }
 };
 
