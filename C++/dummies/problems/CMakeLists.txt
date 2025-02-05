@@ -9,6 +9,7 @@ add_subdirectory(add_two_num_2_list)
 #B
 add_subdirectory(biggest_prefix)
 add_subdirectory(biggest_substr)
+add_subdirectory(binary_search)
 add_subdirectory(bit_accessor)
 add_subdirectory(best_time_to_buy_and_sell_stock)
 
