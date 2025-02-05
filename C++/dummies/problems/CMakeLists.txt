@@ -75,6 +75,7 @@ add_subdirectory(remove_nth_elem_node_list)
 add_subdirectory(reverse_int)
 
 #S
+add_subdirectory(same_tree)
 add_subdirectory(single_number)
 add_subdirectory(serializable_list_node)
 
