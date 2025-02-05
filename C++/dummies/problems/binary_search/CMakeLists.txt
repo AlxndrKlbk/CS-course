@@ -1,9 +1,16 @@
-# Given head, the head of a linked list, determine if the linked list has a cycle in it.
+# Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.
+# If target exists, then return its index. Otherwise, return -1.
+# You must write an algorithm with O(log n) runtime complexity.
 
-# There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer.
-# Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
+# Example 1:
+# Input: nums = [-1,0,3,5,9,12], target = 9
+# Output: 4
+# Explanation: 9 exists in nums and its index is 4
 
-# Return true if there is a cycle in the linked list. Otherwise, return false.
+# Example 2:
+# Input: nums = [-1,0,3,5,9,12], target = 2
+# Output: -1
+# Explanation: 2 does not exist in nums so return -1
 
 set(CPP_SOURCES
     solution.cpp
