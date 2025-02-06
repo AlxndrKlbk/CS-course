@@ -56,6 +56,7 @@ add_subdirectory(mid_of_arrays)
 add_subdirectory(my_atoi)
 add_subdirectory(merge_two_sorted_list)
 add_subdirectory(minimum_depth_of_binary_tree)
+add_subdirectory(maximum_depth_of_binary_tree)
 
 #N
 add_subdirectory(negative_in_matrix)

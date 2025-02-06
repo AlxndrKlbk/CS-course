@@ -1,6 +1,6 @@
 
 find_package(Boost REQUIRED COMPONENTS
-    date_time filesystem iostreams)
+                    date_time filesystem iostreams)
 
 add_executable(boost_echo boost_echo.cpp)
 
