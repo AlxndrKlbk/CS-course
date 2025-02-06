@@ -21,6 +21,7 @@ add_subdirectory(contain_most_water)
 add_subdirectory(climbing_stairs)
 
 #D
+add_subdirectory(diameter_of_binary_tree)
 add_subdirectory(duplicates_in_str)
 add_subdirectory(del_middle_node)
 add_subdirectory(deepest_node_bin_tree)
