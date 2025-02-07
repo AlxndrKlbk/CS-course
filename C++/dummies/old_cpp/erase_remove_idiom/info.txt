@@ -1,0 +1,5 @@
+removing some data from vector with using erase remove idiom:
+
+usage:
+firt argument in comand line is the value with to compare,
+other arguments int or double sequence of values

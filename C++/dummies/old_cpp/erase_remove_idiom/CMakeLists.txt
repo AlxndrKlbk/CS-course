@@ -1,0 +1,2 @@
+
+add_executable(erase_remove_idiom erase_remove_idiom.cpp)
