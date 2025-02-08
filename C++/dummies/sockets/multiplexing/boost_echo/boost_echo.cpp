@@ -14,7 +14,7 @@ private:
     char mData[max_length];
 
 public:
-    Session(boost::asio::io_service& io_service):
+    Session(boost::asio::io_context& io_service):
         mSocket(io_service) {}
 
     tcp::socket& socket() { return mSocket; }
@@ -58,11 +58,11 @@ public:
 class Server
 {
 private:
-    boost::asio::io_service& mIoService;
+    boost::asio::io_context& mIoService;
     tcp::acceptor mAcceptor;
 
 public:
-    Server(boost::asio::io_service& service,
+    Server(boost::asio::io_context& service,
            short port) :
         mIoService(service) ,
         mAcceptor(service, tcp::endpoint(tcp::v4(), port))
@@ -94,7 +94,7 @@ public:
 };
 
 int main(int argc, char** argv) {
-    boost::asio::io_service ioService;
+    boost::asio::io_context ioService;
 
     Server srv(ioService, atoi(argv[1]));
     ioService.run();
