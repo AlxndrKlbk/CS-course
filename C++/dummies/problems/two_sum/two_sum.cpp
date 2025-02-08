@@ -1,6 +1,9 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <unordered_map>
+
+#include <cassert>
 
 // main_ituls lib
 #include "main_func_utils.hpp"
@@ -8,6 +11,24 @@
 namespace {
 
 using std::vector;
+
+class Solution2 {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        std::unordered_map<int, int> numMap;
+        int n = nums.size();
+
+        for (int i = 0; i < n; i++) {
+            int complement = target - nums[i];
+            if (numMap.count(complement)) {
+                return {numMap[complement], i};
+            }
+            numMap[nums[i]] = i;
+        }
+
+        return {}; // No solution found
+    }
+};
 
 class Solution {
 public:
@@ -40,5 +61,12 @@ int main(int argc, char** argv)
         std::cout << val << ' ';
     }
     std::cout << std::endl;
+
+    buff = {3, 2, 4};
+
+    Solution2 solution;
+    auto const& res = solution.twoSum(buff, 6);
+    assert(res[0] == 1 && res[1] == 2);
+
     return 0;
 }
