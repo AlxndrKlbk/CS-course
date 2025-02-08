@@ -35,6 +35,7 @@ add_subdirectory(find_smallest_letter_greater_than_target)
 #I
 add_subdirectory(int_to_roman)
 add_subdirectory(int_to_bin)
+add_subdirectory(invert_binary_tree)
 
 #K
 add_subdirectory(k_weakest_rows_matrix)
