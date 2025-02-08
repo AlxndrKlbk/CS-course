@@ -12,24 +12,6 @@ namespace {
 
 using std::vector;
 
-class Solution2 {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int, int> numMap;
-        int n = nums.size();
-
-        for (int i = 0; i < n; i++) {
-            int complement = target - nums[i];
-            if (numMap.count(complement)) {
-                return {numMap[complement], i};
-            }
-            numMap[nums[i]] = i;
-        }
-
-        return {}; // No solution found
-    }
-};
-
 class Solution {
 public:
     static vector<int> twoSum(vector<int>& nums, int target) {
@@ -49,6 +31,47 @@ public:
 constexpr int TARGET_VALUE_INDEX = 1;
 constexpr int VALUES_START_INDEX = 2;
 
+class Solution2 {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        std::unordered_map<int, int> numMap;
+        int n = nums.size();
+
+        for (int i = 0; i < n; i++) {
+            int complement = target - nums[i];
+            if (numMap.count(complement)) {
+                return {numMap[complement], i};
+            }
+            numMap[nums[i]] = i;
+        }
+
+        return {}; // No solution found
+    }
+};
+
+class Solution3 {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int l=0,r=nums.size()-1;
+        vector<std::pair<int, int>> sortedNums(nums.size());
+        for(int i = 0; i < nums.size(); i++) {
+            sortedNums[i] = {nums[i], i};
+        }
+        sort(sortedNums.begin(),sortedNums.end());
+        while (l < r) {
+            int temp = sortedNums[l].first + sortedNums[r].first;
+            if (temp == target) {
+                return {sortedNums[l].second, sortedNums[r].second};
+            } else if (temp < target) {
+                l++;
+            } else {
+                r--;
+            }
+        }
+        return {-1,-1};
+    }
+};
+
 }
 
 int main(int argc, char** argv)
@@ -64,8 +87,12 @@ int main(int argc, char** argv)
 
     buff = {3, 2, 4};
 
-    Solution2 solution;
-    auto const& res = solution.twoSum(buff, 6);
+    Solution2 solution2;
+    auto&& res = solution2.twoSum(buff, 6);
+    assert(res[0] == 1 && res[1] == 2);
+
+    Solution3 solution3;
+    res = solution3.twoSum(buff, 6);
     assert(res[0] == 1 && res[1] == 2);
 
     return 0;
