@@ -83,6 +83,7 @@ add_subdirectory(reverse_int)
 add_subdirectory(same_tree)
 add_subdirectory(single_number)
 add_subdirectory(serializable_list_node)
+add_subdirectory(subtree_of_another_tree)
 
 #T
 add_subdirectory(three_sum)
