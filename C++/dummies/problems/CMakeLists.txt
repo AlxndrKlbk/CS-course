@@ -8,6 +8,7 @@ add_subdirectory(add_two_num_2_list)
 add_subdirectory(average_of_levels_in_binary_three)
 
 #B
+add_subdirectory(backspace_string_compare)
 add_subdirectory(biggest_prefix)
 add_subdirectory(biggest_substr)
 add_subdirectory(binary_search)
