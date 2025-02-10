@@ -9,11 +9,12 @@ add_subdirectory(average_of_levels_in_binary_three)
 
 #B
 add_subdirectory(backspace_string_compare)
+add_subdirectory(best_time_to_buy_and_sell_stock)
 add_subdirectory(biggest_prefix)
 add_subdirectory(biggest_substr)
 add_subdirectory(binary_search)
+add_subdirectory(binary_tree_paths)
 add_subdirectory(bit_accessor)
-add_subdirectory(best_time_to_buy_and_sell_stock)
 
 #C
 add_subdirectory(converter)
