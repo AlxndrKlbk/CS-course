@@ -55,6 +55,7 @@ add_subdirectory(list_node_remove_item)
 add_subdirectory(list_node_remove_duplicates_from_sorted)
 
 #M
+add_subdirectory(maximum_average_subarray)
 add_subdirectory(majority_element)
 add_subdirectory(missing_number)
 add_subdirectory(max_wealth)
