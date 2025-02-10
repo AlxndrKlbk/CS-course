@@ -1,20 +1,14 @@
-# Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
-# Note that after backspacing an empty text, the text will continue empty.
+# Given an array nums of size n, return the majority element.
+# The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
 # Example 1:
-# Input: s = "ab#c", t = "ad#c"
-# Output: true
-# Explanation: Both s and t become "ac".
+# Input: nums = [3,2,3]
+# Output: 3
 
 # Example 2:
-# Input: s = "ab##", t = "c#d#"
-# Output: true
-# Explanation: Both s and t become "".
+# Input: nums = [2,2,1,1,1,2,2]
+# Output: 2
 
-# Example 3:
-# Input: s = "a#c", t = "b"
-# Output: false
-# Explanation: s becomes "c" while t becomes "b".
 
 set(CPP_SOURCE_FILES
     solution.cpp
