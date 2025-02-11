@@ -79,7 +79,7 @@ add_subdirectory(palindromic_substr)
 add_subdirectory(path_sum)
 add_subdirectory(phone_number_digits)
 add_subdirectory(polynom_derivative)
-
+add_subdirectory(product_of_array_except_self)
 
 #R
 add_subdirectory(romans_to_int)
