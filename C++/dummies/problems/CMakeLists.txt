@@ -95,6 +95,7 @@ add_subdirectory(reverse_int)
 add_subdirectory(same_tree)
 add_subdirectory(single_number)
 add_subdirectory(serializable_list_node)
+add_subdirectory(set_matrix_zeroes)
 add_subdirectory(subtree_of_another_tree)
 add_subdirectory(squares_of_a_sorted_array)
 
