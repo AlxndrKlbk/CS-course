@@ -30,10 +30,10 @@ public:
 
 int main (int argc, char** argv)
 {
-    std::vector<int> nums{1, 2, 3, 444, 444, 4};
+    std::vector<int> nums{1, 2, 4, 4, 3};
     Solution solution;
     auto const& res = solution.findDuplicate(nums);
-    assert(res == 444);
+    assert(res == 4);
 
     return 0;
 }

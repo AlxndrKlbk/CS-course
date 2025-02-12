@@ -32,7 +32,8 @@ add_subdirectory(disappeared_numbers_in_array)
 #F
 add_subdirectory(fizz_buzz)
 add_subdirectory(find_target)
-add_subdirectory(find_the_duplicate_number/)
+add_subdirectory(find_the_duplicate_number)
+add_subdirectory(find_all_duplicates_in_an_array)
 add_subdirectory(find_smallest_letter_greater_than_target)
 
 #I
