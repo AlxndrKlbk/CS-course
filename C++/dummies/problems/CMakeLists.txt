@@ -109,4 +109,7 @@ add_subdirectory(two_sum)
 add_subdirectory(vector_filter_duplicates)
 add_subdirectory(valid_brackets)
 
+#W
+add_subdirectory(word_search_in_matrix)
+
 #Z
