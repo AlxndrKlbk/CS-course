@@ -3,7 +3,6 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <algorithm>
-#include <functional>
 
 #include <cassert>
 
@@ -14,7 +13,7 @@ public:
         int rows = board.size();
         int cols = board[0].size();
 
-        std::function<bool(int, int, int)> dfs = [&](int r, int c, int index) -> bool {
+        auto dfs = [&](int r, int c, int index, auto& dfs) -> bool {
             if (index == word.size()) {
                 return true;
             }
@@ -24,10 +23,10 @@ public:
             char temp = board[r][c];
             board[r][c] = '*'; // Mark as visited
 
-            bool found = dfs(r + 1, c, index + 1) ||
-                         dfs(r - 1, c, index + 1) ||
-                         dfs(r, c + 1, index + 1) ||
-                         dfs(r, c - 1, index + 1);
+            bool found = dfs(r + 1, c, index + 1, dfs) ||
+                         dfs(r - 1, c, index + 1, dfs) ||
+                         dfs(r, c + 1, index + 1, dfs) ||
+                         dfs(r, c - 1, index + 1, dfs);
 
             board[r][c] = temp; // Restore the cell
             return found;
@@ -45,7 +44,7 @@ public:
 
         for (int r = 0; r < rows; ++r) {
             for (int c = 0; c < cols; ++c) {
-                if (dfs(r, c, 0)) return true;
+                if (dfs(r, c, 0, dfs)) return true;
             }
         }
         return false;
