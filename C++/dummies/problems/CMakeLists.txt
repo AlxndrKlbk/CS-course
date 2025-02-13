@@ -84,6 +84,7 @@ add_subdirectory(polynom_derivative)
 add_subdirectory(product_of_array_except_self)
 
 #R
+add_subdirectory(rotate_matrix)
 add_subdirectory(romans_to_int)
 add_subdirectory(range_sum_query)
 add_subdirectory(reduce_to_zero)
@@ -96,8 +97,9 @@ add_subdirectory(same_tree)
 add_subdirectory(single_number)
 add_subdirectory(serializable_list_node)
 add_subdirectory(set_matrix_zeroes)
-add_subdirectory(subtree_of_another_tree)
+add_subdirectory(spiral_matrix)
 add_subdirectory(squares_of_a_sorted_array)
+add_subdirectory(subtree_of_another_tree)
 
 #T
 add_subdirectory(three_sum)
