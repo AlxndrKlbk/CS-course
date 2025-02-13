@@ -55,6 +55,7 @@ add_subdirectory(list_node_reverse)
 add_subdirectory(list_node_palindrome)
 add_subdirectory(list_node_remove_item)
 add_subdirectory(list_node_remove_duplicates_from_sorted)
+add_subdirectory(longest_consecutive_sequence)
 
 #M
 add_subdirectory(maximum_average_subarray)
