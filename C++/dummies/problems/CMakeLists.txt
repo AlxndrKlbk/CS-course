@@ -96,6 +96,7 @@ add_subdirectory(reverse_int)
 
 #S
 add_subdirectory(subsets)
+add_subdirectory(subsets_2)
 add_subdirectory(same_tree)
 add_subdirectory(single_number)
 add_subdirectory(serializable_list_node)
