@@ -290,9 +290,10 @@
 
 
 #### OS courses and resources
-[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)/
-[Linux kernel userspace API](https://www.kernel.org/doc/html/v4.18/userspace-api/index.html)/
-[OSDEV](https://wiki.osdev.org/Expanded_Main_Page)
+[15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)\
+[Linux kernel userspace API](https://www.kernel.org/doc/html/v4.18/userspace-api/index.html)\
+[OSDEV](https://wiki.osdev.org/Expanded_Main_Page)\
+[Build OS in 1000 code lines](https://habr.com/ru/companies/ruvds/articles/874154/)
 
 #### Networking  Filesystem Hierarchy Standard courses
 [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
