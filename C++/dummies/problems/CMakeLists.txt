@@ -17,10 +17,11 @@ add_subdirectory(binary_tree_paths)
 add_subdirectory(bit_accessor)
 
 #C
+add_subdirectory(climbing_stairs)
+add_subdirectory(combinations)
 add_subdirectory(converter)
 add_subdirectory(counting_bits)
 add_subdirectory(contain_most_water)
-add_subdirectory(climbing_stairs)
 
 #D
 add_subdirectory(diameter_of_binary_tree)
