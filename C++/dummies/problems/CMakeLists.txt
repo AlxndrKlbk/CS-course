@@ -19,6 +19,7 @@ add_subdirectory(bit_accessor)
 #C
 add_subdirectory(climbing_stairs)
 add_subdirectory(combinations)
+add_subdirectory(combinations_sum)
 add_subdirectory(converter)
 add_subdirectory(counting_bits)
 add_subdirectory(contain_most_water)
