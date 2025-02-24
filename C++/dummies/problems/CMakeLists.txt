@@ -82,7 +82,7 @@ add_subdirectory(negative_in_matrix)
 add_subdirectory(one_D_array_to_two_D_array)
 
 #P
-add_subdirectory(parenthesis)
+add_subdirectory(parentheses)
 add_subdirectory(palindromic_substr)
 add_subdirectory(path_sum)
 add_subdirectory(permutations_in_array)

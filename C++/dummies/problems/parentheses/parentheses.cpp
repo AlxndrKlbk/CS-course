@@ -9,20 +9,20 @@ using std::endl;
 
 class Solution {
 public:
-    void solve(int n , int start , int close, string temp ,vector<string>&result)
+    void solve(int max , int open , int close, string temp ,vector<string>&result)
     {
-        if(temp.size()==n*2)
+        if (temp.size() == max * 2)
         {
             result.push_back(temp);
             return ;
         }
-        if(start < n)
+        if (open < max)
         {
-            solve(n,start + 1, close,temp + "(", result);
+            solve(max,open + 1, close,temp + "(", result);
         }
-        if(close < start )
+        if (close < open )
         {
-            solve(n,start, close + 1,temp + ")", result);
+            solve(max,open, close + 1,temp + ")", result);
         }
     }
     vector<string> generateParenthesis(int n) {
@@ -30,15 +30,20 @@ public:
         solve(n,0, 0,"", result);
         return result;
     }
+
 };
 
+auto cout_parentheses = [](std::vector<std::string> const& res) -> void {
+    for (auto& str: res) {
+        cout << str << endl;
+    }
+};
 
 int main( int argc, char* argv[]) {
     int parenthesis_count = atoi(argv[1]);
     Solution solver;
     auto result = solver.generateParenthesis(parenthesis_count);
-    for (auto& str: result) {
-        cout << str << endl;
-    }
+    cout_parentheses(result);
+
     return 0;
 }
