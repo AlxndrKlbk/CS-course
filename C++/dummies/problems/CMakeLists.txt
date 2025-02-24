@@ -113,6 +113,7 @@ add_subdirectory(subtree_of_another_tree)
 #T
 add_subdirectory(three_sum)
 add_subdirectory(two_sum)
+add_subdirectory(target_sum)
 
 #V
 add_subdirectory(vector_filter_duplicates)
