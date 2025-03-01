@@ -68,6 +68,7 @@ add_subdirectory(longest_consecutive_sequence)
 
 #M
 add_subdirectory(maximum_average_subarray)
+add_subdirectory(maximum_subarray)
 add_subdirectory(majority_element)
 add_subdirectory(missing_number)
 add_subdirectory(max_wealth)
