@@ -40,6 +40,9 @@ add_subdirectory(find_the_duplicate_number)
 add_subdirectory(find_all_duplicates_in_an_array)
 add_subdirectory(find_smallest_letter_greater_than_target)
 
+#H
+add_subdirectory(house_robber)
+
 #I
 add_subdirectory(int_to_roman)
 add_subdirectory(int_to_bin)
