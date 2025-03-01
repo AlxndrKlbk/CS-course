@@ -52,6 +52,8 @@ add_subdirectory(k_weakest_rows_matrix)
 #L
 add_subdirectory(ladder_to_a)
 add_subdirectory(lambda_cout)
+add_subdirectory(letter_case_permutation)
+add_subdirectory(letter_combinations_of_a_phone_number)
 add_subdirectory(list_node_cycle)
 add_subdirectory(list_node_merge)
 add_subdirectory(list_node_middle)
@@ -60,7 +62,6 @@ add_subdirectory(list_node_palindrome)
 add_subdirectory(list_node_remove_item)
 add_subdirectory(list_node_remove_duplicates_from_sorted)
 add_subdirectory(longest_consecutive_sequence)
-add_subdirectory(letter_case_permutation)
 
 #M
 add_subdirectory(maximum_average_subarray)
