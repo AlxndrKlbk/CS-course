@@ -42,6 +42,7 @@ add_subdirectory(find_smallest_letter_greater_than_target)
 
 #H
 add_subdirectory(house_robber)
+add_subdirectory(house_robber_2)
 
 #I
 add_subdirectory(int_to_roman)
