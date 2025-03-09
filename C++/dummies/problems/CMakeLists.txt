@@ -68,6 +68,7 @@ add_subdirectory(list_node_remove_item)
 add_subdirectory(list_node_remove_duplicates_from_sorted)
 add_subdirectory(longest_consecutive_sequence)
 add_subdirectory(longest_increasing_subsequence)
+add_subdirectory(longes_palindromic_substring)
 
 #M
 add_subdirectory(maximum_average_subarray)
