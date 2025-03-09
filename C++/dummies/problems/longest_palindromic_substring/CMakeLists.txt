@@ -17,4 +17,4 @@ set(CPP_SOURCES
     solution.cpp
 )
 
-add_executable(longes_palindromic_substring ${CPP_SOURCES})
+add_executable(longest_palindromic_substring ${CPP_SOURCES})

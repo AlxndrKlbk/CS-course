@@ -68,7 +68,7 @@ add_subdirectory(list_node_remove_item)
 add_subdirectory(list_node_remove_duplicates_from_sorted)
 add_subdirectory(longest_consecutive_sequence)
 add_subdirectory(longest_increasing_subsequence)
-add_subdirectory(longes_palindromic_substring)
+add_subdirectory(longest_palindromic_substring)
 
 #M
 add_subdirectory(maximum_average_subarray)
@@ -131,6 +131,7 @@ add_subdirectory(vector_filter_duplicates)
 add_subdirectory(valid_brackets)
 
 #W
+add_subdirectory(word_break)
 add_subdirectory(word_search_in_matrix)
 
 #Z
