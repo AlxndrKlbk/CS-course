@@ -32,10 +32,12 @@ public:
 
 int main (int argc, char** argv)
 {
-    std::vector<int> nums{1,2,3};
     Solution solution;
     auto res = solution.numDecodings("226");
     assert(res == 3);
+
+    res = solution.numDecodings("22");
+    assert(res == 2);
 
     return 0;
 }
