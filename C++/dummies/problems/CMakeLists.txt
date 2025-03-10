@@ -29,6 +29,7 @@ add_subdirectory(counting_bits)
 add_subdirectory(contain_most_water)
 
 #D
+add_subdirectory(decode_ways)
 add_subdirectory(diameter_of_binary_tree)
 add_subdirectory(duplicates_in_str)
 add_subdirectory(del_middle_node)
