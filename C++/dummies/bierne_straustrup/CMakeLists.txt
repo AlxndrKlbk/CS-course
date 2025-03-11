@@ -15,4 +15,5 @@ add_executable(exception exception/exception.cpp)
 add_executable(enable_if_like_concept intraspection_meta_functions/enable_if_like_concept.cpp)
 add_executable(intraspection intraspection_meta_functions/intraspection.cpp)
 
+add_subdirectory(standard_explore)
 add_subdirectory(allocators)
