@@ -2,6 +2,7 @@
 #include <type_traits>
 #include <limits>
 #include <optional>
+#include <utility>
 
 void func_begin_print(std::string const& msg)
 {
@@ -75,6 +76,7 @@ void test_internal_types_comparison()
 
     std::cout << "signed long long and unsigned long comparison" << std::endl;
     std::cout << (-1ll < 0ul) << '\n'; // 0
+    std::cout << (5ul == 5l) << std::endl; // compare unsigned long with long
     std::cout << foo1(std::numeric_limits<unsigned int>::max()) << '\n'; // 1
 }
 
