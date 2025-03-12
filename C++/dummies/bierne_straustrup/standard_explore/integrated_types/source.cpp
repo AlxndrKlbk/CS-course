@@ -71,11 +71,11 @@ void test_internal_types_comparison()
 {
     func_begin_print(__PRETTY_FUNCTION__);
     std::cout << "signed and unsigned comparison" << std::endl;
-    std::cout << (-1 < 0u) << '\n'; // 1
+    std::cout << (-1 < 0u) << '\n'; // 0
 
     std::cout << "signed long long and unsigned long comparison" << std::endl;
     std::cout << (-1ll < 0ul) << '\n'; // 0
-    std::cout << foo1(std::numeric_limits<unsigned int>::max()) << '\n'; // 0
+    std::cout << foo1(std::numeric_limits<unsigned int>::max()) << '\n'; // 1
 }
 
 void test_char_sign_implementation()
