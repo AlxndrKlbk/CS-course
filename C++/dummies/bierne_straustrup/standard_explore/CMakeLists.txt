@@ -2,4 +2,5 @@
 add_subdirectory(casts)
 add_subdirectory(integrated_types)
 add_subdirectory(loop_optimization_return)
+add_subdirectory(vector_methods)
 add_subdirectory(virtual_inheritance)
