@@ -162,10 +162,10 @@ int main()
     str = str2;
     str = str3;
     str = str2;
-    str = MString{"rvalue_MString"};
+    str = MString{"rvalue_MString"}; // ::operator=
     str = "char_equal";
 
-    MString str4{str};
+    MString str4{std::move(str)};
 
     std::cout << std::endl << "Start split test" << std::endl;
     MString toSplitStr{"  string    for   test  split"};
