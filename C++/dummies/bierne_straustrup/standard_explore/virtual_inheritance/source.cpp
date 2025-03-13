@@ -2,7 +2,7 @@
 
 class PoweredDevice {
 public:
-    PoweredDevice(int power) : mValue(power) {
+    PoweredDevice(int power = 0) : mValue(power) {
         std::cout << "PoweredDevice: " << power << '\n';
     }
 
@@ -17,7 +17,7 @@ public:
         std::cout << "Scanner: " << scanner << '\n';
     }
 
-    int get_value() override { return mValue; }
+    // int get_value() override { return mValue; }
 
 private:
     int mValue;
@@ -29,19 +29,23 @@ public:
         std::cout << "Printer: " << printer << '\n';
     }
 
-    int get_value() override { return mValue; }
+    // int get_value() override { return mValue; }
 
 private:
     int mValue;
 };
 
+// Possibilities to construct base class (PoweredDevice) for Copier
+// - default constructor
+// - default argument for PoweredDevice constructor with parameter
+// - explicit call PoweredDevice constructor for initialization list of Copier
 class Copier : public Scanner, public Printer {
 public:
     Copier(int scanner, int printer, int power) : PoweredDevice(power), Scanner(scanner, scanner), Printer(printer, printer) {
         std::cout << "Copier: " << '\n';
     }
 
-    int get_value() override { return Printer::get_value(); }
+    // int get_value() override { return Printer::get_value(); }
 
 };
 
