@@ -2,7 +2,7 @@
 #include <type_traits>
 #include <limits>
 #include <optional>
-#include <utility>
+#include <bitset>
 
 void func_begin_print(std::string const& msg)
 {
@@ -78,6 +78,14 @@ void test_internal_types_comparison()
     std::cout << (-1ll < 0ul) << '\n'; // 0
     std::cout << (5ul == 5l) << std::endl; // compare unsigned long with long
     std::cout << foo1(std::numeric_limits<unsigned int>::max()) << '\n'; // 1
+
+    int x = -5; // Знаковое число
+    unsigned long long y = static_cast<unsigned long long>(x); // Преобразование
+
+    std::cout << "x as int: " << x << std::endl;
+    std::cout << "x as unsigned long long: " << y << std::endl;
+    std::cout << "Binary representation of x as int: " << std::bitset<32>(x) << std::endl;
+    std::cout << "Binary representation of y as unsigned long long: " << std::bitset<64>(y) << std::endl;
 }
 
 void test_char_sign_implementation()
