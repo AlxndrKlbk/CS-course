@@ -53,6 +53,9 @@ add_subdirectory(int_to_bin)
 add_subdirectory(invert_binary_tree)
 add_subdirectory(is_subsequence)
 
+#J
+add_subdirectory(jump_game)
+
 #K
 add_subdirectory(k_weakest_rows_matrix)
 
@@ -127,6 +130,9 @@ add_subdirectory(subtree_of_another_tree)
 add_subdirectory(three_sum)
 add_subdirectory(two_sum)
 add_subdirectory(target_sum)
+
+#U
+add_subdirectory(unique_paths)
 
 #V
 add_subdirectory(vector_filter_duplicates)
