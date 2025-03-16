@@ -1,1 +1,3 @@
-add_executable(virtual_inheritance source.cpp)
+
+add_subdirectory(virtual_constructing)
+add_subdirectory(virtual_destruction)
