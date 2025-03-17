@@ -1,3 +1,4 @@
 
+add_subdirectory(early_binding)
 add_subdirectory(virtual_constructing)
 add_subdirectory(virtual_destruction)
