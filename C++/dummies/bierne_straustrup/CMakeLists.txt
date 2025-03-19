@@ -10,10 +10,11 @@ add_executable(init_copy_test
 add_executable(animals animals/animals.cpp)
 add_executable(lambda lambda/lambda.cpp)
 add_executable(structured_bindings structured_bindings/structured_bindings.cpp)
-add_executable(exception exception/exception.cpp)
 add_executable(enable_if_like_concept intraspection_meta_functions/enable_if_like_concept.cpp)
 add_executable(intraspection intraspection_meta_functions/intraspection.cpp)
 
+add_subdirectory(exception)
 add_subdirectory(standard_explore)
 add_subdirectory(allocators)
 add_subdirectory(mstring)
+add_subdirectory(object_constructions_and_allocations)

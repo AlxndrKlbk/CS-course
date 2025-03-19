@@ -28,6 +28,12 @@ void test(int a, int b)
     {
         std::cout << error_message << std::endl;
     }
+    catch(...)
+    {
+        std::cout << "Unexpected error" << std::endl;
+        // rethrow unexpected error
+        throw;
+    }
 }
 
 int main()
