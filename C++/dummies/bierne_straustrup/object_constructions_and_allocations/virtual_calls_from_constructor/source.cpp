@@ -5,7 +5,7 @@ class A1
 public:
     virtual ~A1() = default;
 
-private:
+protected:
     virtual void DoSomething() = 0;
 };
 
