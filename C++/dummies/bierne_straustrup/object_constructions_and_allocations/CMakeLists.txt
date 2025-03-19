@@ -1,3 +1,4 @@
 
 add_subdirectory(cutting_memory_loss)
+add_subdirectory(virtual_calls_from_constructor)
 add_subdirectory(virtual_calls_from_destructor)

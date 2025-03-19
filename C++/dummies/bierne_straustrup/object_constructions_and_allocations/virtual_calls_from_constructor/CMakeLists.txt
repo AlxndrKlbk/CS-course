@@ -1,0 +1,2 @@
+
+add_executable(virtual_calls_from_constructor source.cpp)
