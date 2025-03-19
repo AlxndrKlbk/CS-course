@@ -1,0 +1,2 @@
+
+add_executable(virtual_method_acces_redifinition_trick source.cpp)

@@ -2,3 +2,4 @@
 add_subdirectory(cutting_memory_loss)
 add_subdirectory(virtual_calls_from_constructor)
 add_subdirectory(virtual_calls_from_destructor)
+add_subdirectory(virtual_method_acces_redifinition_trick)
