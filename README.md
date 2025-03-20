@@ -302,7 +302,7 @@
 [Carnegie Mellon University Database Group](https://www.youtube.com/@CMUDatabaseGroup/playlists)
 
 #### Security
-[Learn to hack!pwd.college](https://pwn.college)\
+[Learn to hack! (pwd.college)](https://pwn.college)\
 [Stanford CS 253 Web Security](https://web.stanford.edu/class/cs253/)\
 [Crack me!](https://crackmes.one/)
 
