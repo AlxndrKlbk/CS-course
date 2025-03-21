@@ -19,6 +19,8 @@ struct Base {
         std::cout << "Base::DoSomething" << std::endl;
     }
 
+    virtual void DoMethingNotOverride() {}
+
     int mAge;
     char mName[BUFF_SIZE]{0};
 };
