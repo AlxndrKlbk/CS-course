@@ -18,7 +18,8 @@ public:
 
 class Child : public Mother, public Father {
 public:
-    virtual void ChildMethod() {}
+    // virtual void ChildMethod() {}
+    virtual void FatherMethod() override {};
     int child_data;
 };
 
