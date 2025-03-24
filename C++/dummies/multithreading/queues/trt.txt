@@ -1,0 +1,73 @@
+struct timer_t {
+using unique_id_t = std::uint16_t;
+using duration_t = std::chrono::milliseconds;
+using callback_t = std::function<void(unique_id_t)>;
+
+unique_id_t id;
+duration_t duration;
+callback_t cb;
+};
+
+
+// отложенное выполнение cb
+
+class TimerReactor // 1 thread
+{
+public:
+
+    TimerReactor()
+    {
+        mInterceprt = false;
+        mPool(std::thread(process));
+    }
+
+~TimerReactor()
+{
+mInterceprt = true;
+}
+
+void add(timer_t const& timer) // timer started
+{
+    std::lock_quard(mBlock);
+    list.push({std::chrono:timer::now(), timer});
+}
+
+void process()
+{
+    while (true) {
+        if (mIntercept) {
+            std::lock_quard(mBlock);
+            for (event : mTask) {
+                auto duration = std::chrono::time_point::now() - event.firtst;
+                if (duration > event.second.duration) {
+                    event.second.cb(event.second.id);
+                }
+            }
+            return;
+        }
+    }
+}
+
+private:
+std::unordered_map<unique_id_t, callback_t> mCallbacks;
+std::list<std::pair<std::chrono::milliseconds, timer_t>> mTask;
+std::map<std::chrono::milliseconds, std::vector<timer_t>> mTask;
+std::mutex mBlock;
+std::atomic<bool> mIntercept;
+std::unique_ptr<std::thread> mPool;
+};
+
+
+TimerReactor r;
+
+auto cb = [](auto id){ std::cout << id;}
+
+r.add({1, 30, cb}); // t1
+r.add({2, 20, cb}); // t2
+r.add({3, 50, cb}); // t3
+
+// 213
+//
+
+
+
