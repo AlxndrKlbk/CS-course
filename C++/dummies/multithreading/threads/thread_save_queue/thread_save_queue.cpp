@@ -5,36 +5,36 @@
 #include <iostream>
 
 
-class threadSafe_queue {
-
-    std::queue<int> rawQueue; // структура, общая для всех потоков
-    std::mutex m; // красная дверь rawQueue
+class ThreadSafeQueue
+{
+private:
+    std::queue<int> mRawQueue;
+    std::mutex mBlock;
 
 public:
 
-    int retrieve_and_delete() {
+    int retrieve_and_delete()
+    {
         int front_value = 0; // если пустая, возвращает 0
-        std::lock_guard<std::mutex> lg(m);
-        // Отныне текущий поток единственный, который имеет доступ к rawQueue
-        if( !rawQueue.empty() ) {
-            front_value = rawQueue.front();
-            rawQueue.pop();
+        std::lock_guard<std::mutex> lg(mBlock);
+
+        if( !mRawQueue.empty() ) {
+            front_value = mRawQueue.front();
+            mRawQueue.pop();
         }
 
-        // теперь другие потоки могут захватить мьютекс
         return front_value;
     };
 
-    void push(int val) {
-        std::lock_guard<std::mutex> lg(m);
-        rawQueue.push(val);
-        };
-
+    void push(int val)
+    {
+        std::lock_guard<std::mutex> lg(mBlock);
+        mRawQueue.push(val);
+    };
 };
 
-
 std::mutex queue_usage_mtx;
-void queue_usage(threadSafe_queue& queue, int threadNum) {
+void queue_usage(ThreadSafeQueue& queue, int threadNum) {
     std::lock_guard<std::mutex> lc(queue_usage_mtx);
     std::cout << "queue used by thread № " << threadNum << '\n';
     queue.push(threadNum);
@@ -42,7 +42,7 @@ void queue_usage(threadSafe_queue& queue, int threadNum) {
 
 int main (int argc, char** argv) {
 
-    threadSafe_queue queue;
+    ThreadSafeQueue queue;
     std::vector<std::thread> threads;
 
     for (int i = 1; i < 5; i++) {

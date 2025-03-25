@@ -12,7 +12,7 @@ class BasePureVirtual
 {
 public:
     virtual void function1() = 0;
-    virtual ~BasePureVirtual() { function1(); } // Виртуальный деструктор
+    virtual ~BasePureVirtual() { function1(); } // Виртуальный деструктор, pure virtual fnuction call
 };
 
 class Derived : public Base

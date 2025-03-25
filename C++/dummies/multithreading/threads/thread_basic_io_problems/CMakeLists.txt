@@ -1,0 +1,3 @@
+
+add_executable(concurent_access concurent_access.cpp)
+add_executable(concurent_access2 concurent_access2.cpp)

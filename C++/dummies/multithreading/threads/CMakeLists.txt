@@ -1,8 +1,7 @@
 
-add_executable(threads threads.cpp)
-add_executable(concurent_access concurent_access.cpp)
-add_executable(concurent_access2 concurent_access2.cpp)
-add_executable(condition_variable_test condition_variable_test.cpp)
-add_executable(thread_save_queue thread_save_queue.cpp)
-
+add_subdirectory(condition_variable_usage)
+add_subdirectory(os_scheduler_delay_on_threads)
+add_subdirectory(ref_argument_throw_to_thread)
 add_subdirectory(restaurant)
+add_subdirectory(thread_basic_io_problems)
+add_subdirectory(thread_save_queue)
