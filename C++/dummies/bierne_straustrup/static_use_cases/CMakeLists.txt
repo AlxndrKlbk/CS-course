@@ -1,0 +1,2 @@
+
+add_subdirectory(free_static_functions)
