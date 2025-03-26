@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-// who ---(stdout)---> [pfd[1]] --- pfd[0] ---(stdin)---> wc -l
-// пример как редиректнуть потоки ввода/вывода у процесса
+// who ---(stdout)---> pfd[1] --- pfd[0] ---(stdin)---> wc -l
+// редирект потоков ввода/вывода у процесса
 
 void who_wc() {
     int pfd[2];

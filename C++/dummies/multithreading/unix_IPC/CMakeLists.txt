@@ -1,0 +1,4 @@
+
+add_subdirectory(one_direction_channel)
+add_subdirectory(shared_memory)
+add_subdirectory(lock_with_file)

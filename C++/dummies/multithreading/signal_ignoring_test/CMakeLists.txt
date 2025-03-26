@@ -1,0 +1,2 @@
+
+add_executable(signal_ignoring_test signal_ignoring_test.cpp)
