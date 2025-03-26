@@ -1,5 +1,6 @@
 
 add_subdirectory(condition_variable_usage)
+add_subdirectory(multiple_mutex_lock)
 add_subdirectory(os_scheduler_delay_on_threads)
 add_subdirectory(ref_argument_throw_to_thread)
 add_subdirectory(restaurant)
