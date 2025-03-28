@@ -1,4 +1,5 @@
 
+add_subdirectory(algorithm)
 add_subdirectory(casts)
 add_subdirectory(data_layout)
 add_subdirectory(integrated_types)
