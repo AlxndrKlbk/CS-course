@@ -1,5 +1,5 @@
 
-find_package(Boost REQUIRED COMPONENTS
+find_package(Boost CONFIG COMPONENTS
     date_time filesystem iostreams
 )
 
