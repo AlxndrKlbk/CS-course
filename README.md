@@ -288,6 +288,9 @@
 	</tr>
 </table>
 
+#### LeetCode exercises set
+[SQL 50](https://leetcode.com/studyplan/top-sql-50/)\
+[LeetCode patterns](https://seanprashad.com/leetcode-patterns/)
 
 #### OS courses and resources
 [15-213/18-213/15-513: Introduction to Computer Systems (ICS)](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f16/www/schedule.html)\
