@@ -64,6 +64,9 @@ int main()
     thread = std::thread(test,100, 0);       // Error code: devision on zero in thread
     thread.join();
 
+    thread = std::thread(test, 80, 2);      // 40
+    thread.join();
+
     std::cout << "no fail after devision by zero" << std::endl;
     return 0;
 }
