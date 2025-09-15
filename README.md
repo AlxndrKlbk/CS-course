@@ -268,7 +268,7 @@
 	<tr>
 		<td> <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">Linux модули ядра: пособие по программированию</a> </td>
 		<td><img src="https://habrastorage.org/webt/-7/yl/hp/-7ylhpzc6raohz-vopxottyejfu.png" alt="image" width="150" height="auto"></td>
-		<td> electonick book <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">sources</a><br/>
+		<td> electronic book <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">sources</a><br/>
              <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">translated</a><br/>
              not readed &#x25a2<br/>
              READ THIS NEXT
