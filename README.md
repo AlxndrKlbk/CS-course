@@ -14,12 +14,12 @@
 		<td> <a href=http://www.stolyarov.info/books/programming_intro> Программирование: введение в профессию. Том 1-2-3 </a> 
 		</td>
 		<td><img src="https://internet-lab.ru/sites/internet-lab.ru/files/2020-07/progintro.png" alt="image" width="150" height="120"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
     <tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%9A%D0%BE%D0%B4_%D1%82%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA_%D0%B8%D0%BD%D1%84%D0%BE%D1%80/fpnGDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Code: The Hidden Language of <br /> Computer Hardware and Software </a> </td>
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/5/5a/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_Code_The_Hidden_Language_of_Computer_Hardware_and_Software.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5/uE6Z8aioa_oC?hl=ru&gbpv=1&printsec=frontcover> Structured Computer Organization
@@ -213,22 +213,22 @@
 	<tr>
 		<td> <a href="http://uroci.karadev.net/pdf_basic/C++%20For%20DUMMIES.pdf"> The C++ for dummies </a> </td>
 		<td><img src="https://cv1.litres.ru/pub/c/cover_200/28281813.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
     <tr>
 		<td> <a href="https://www.amazon.com/C-Programming-Language-4th/dp/0321563840"> The C++ Programming Language </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/0321563840.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 <br /> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://habr.com/ru/articles/248137/"> Effective C++: 42 Specific Ways to Improve Your Programs and Designs </a> </td>
 		<td><img src="https://habrastorage.org/files/069/615/2ef/0696152ef06e40cba11aa1eaba203f11.gif" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.labirint.ru/books/427982"/> Effective C++: 55 Specific Ways to Improve Your Programs and Designs </a> </td>
 		<td><img src="https://ir.ozone.ru/multimedia/wc700/1015844266.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr> 
 	<tr>
 		<td> <a href="https://www.amazon.com/High-Performance-Financial-Systems-leveraging/dp/1805124528"/> C++ High Performance for Financial Systems: Build efficient and optimized financial systems by leveraging the power of C++ </a> </td>
