@@ -55,7 +55,7 @@
 	<tr>
 		<td> <a href=https://www.google.ru/books/edition/%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE/eGGLDwAAQBAJ?hl=ru&gbpv=1&printsec=frontcover> Modern operating systems </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-x/wc700/6571169121.jpg" alt="image" width="150" height="auto"></td>
-		<td> search &#x25a2</td>
+		<td>in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 </table>
 
