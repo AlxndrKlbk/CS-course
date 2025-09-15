@@ -275,8 +275,8 @@
         </td>
     </tr>
 	<tr>
-		<td> <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">Linux Kernel Development</a> </td>
-		<td><img src="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf" alt="image" width="150" height="auto"></td>
+		<td> <a href="https://www.doc-developpement-durable.org/file/Projets-informatiques/cours-&-manuels-informatiques/Linux/Linux%20Kernel%20Development,%203rd%20Edition.pdf">Linux Kernel Development</a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/41e5gS50A8L._SY445_SX342_.jpg" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2 </td>
     </tr>
 </table>
