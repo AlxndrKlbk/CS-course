@@ -25,7 +25,7 @@
 		<td> <a href=https://www.google.ru/books/edition/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5/uE6Z8aioa_oC?hl=ru&gbpv=1&printsec=frontcover> Structured Computer Organization
 </a> </td>
 		<td><img src="https://img3.labirint.ru/rc/95def292c580d5a22ad3a811bb441f53/363x561q80/books39/386601/cover.jpg?1685121915" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href=http://csapp.cs.cmu.edu/3e/home.html> Computer Systems: A Programmer's Perspective </a> </td>
@@ -69,13 +69,13 @@
 	<tr>
 		<td> <a href=https://lshoshia.science.tsu.ge/assembler.pdf> Assembler. Для DOS, Windows и Unix </a> </td>
 		<td><img src="https://s1.livelib.ru/boocover/1001246882/o/0a15/Sergej_Zubkov__Assembler_dlya_DOS_Windows_i_Unix.jpeg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 		<tr>
 		<td> <a href=https://books.google.ru/books?id=wPt9DwAAQBAJ&printsec=frontcover&redir_esc=y#v=onepage&q&f=false> Modern X86 Assembly Language Programming
 </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-j/wc1000/6316677763.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href=https://books.4nmv.ru/books/iskusstvo_dizassemblirovaniya_3642988.pdf> Искусство дизассемблирования </a> </td>
@@ -99,7 +99,7 @@
 	<tr>
 		<td> <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D1%8B:_%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D1%8B,_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8_%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B"> Compilers: Principles, Techniques, and Tools </a> </td>
 		<td><img src="https://upload.wikimedia.org/wikipedia/ru/f/fa/CompilersBook2ed.png" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.chitai-gorod.ru/product/optimiziruyushchie-kompilyatory-struktura-i-algoritmy-3059667?srsltid=AfmBOopgOsorCZ6AfeFXnwiBSruTdxy4KRTGLLG9-MsUptEwppQMSsVY"> Оптимизирующие компиляторы. Структура и алгоритмы</a> </td>
@@ -163,7 +163,7 @@
 	<tr>
 		<td> <a href="https://www.litres.ru/book/kris-kasperski/komputernye-virusy-iznutri-i-snaruzhi-585385/"> Компьютерные вирусы изнутри и снаружи </a> </td>
 		<td><img src="https://cv8.litres.ru/pub/c/cover_max1500/585385.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.livelib.ru/book/1000244228-szhatie-dannyh-izobrazhenij-i-zvuka-perevod-s-anglijskogo-selomon-d"> Сжатие данных, изображения и звука </a> </td>
@@ -183,17 +183,17 @@
 	<tr>
 		<td> <a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/?redirectFromSmile=1"> Designing Data-Intensive Applications: </br>The Big Ideas Behind Reliable, Scalable, and Maintainable Systems  </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/B06XPJML5D.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://ru.wikipedia.org/wiki/Design_Patterns"> Design Patterns: <br /> Elements of Reusable Object-Oriented Software </a> </td>
 		<td><img src="https://ir.ozone.ru/s3/multimedia-1/wc700/6414346537.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.litres.ru/book/robert-nistrem/patterny-programmirovaniya-igr-66556220/"> Game Programming Patterns </a> </td>
 		<td><img src="https://m.media-amazon.com/images/P/0990582906.01._SCLZZZZZZZ_SX500_.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.amazon.com/Software-Architecture-effective-architecture-techniques/dp/1838554599"> Software Architecture with C++: Design modern systems using effective architecture concepts, design patterns, and techniques with C++20 </a> </td>
@@ -253,20 +253,47 @@
 	<tr>
 		<td> <a href="https://bhv.ru/product/linux-glazami-hakera-6-e-izdanie/"> Linux глазами хакера </a> </td>
 		<td><img src="/img/linux_hacker_view.jpg" alt="image" width="150" height="auto"></td>
-		<td> read &#9989 </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 	<tr>
 		<td> <a href="https://www.amazon.com/How-Linux-Works-Brian-Ward/dp/1718500408"> internal device Linux 3rd ed. Ward Brian </a> </td>
 		<td><img src="/img/internal_device_Linux_3rd_ed_Ward_Brian.webp" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> reading &#9989 (54%) </td>
     </tr>
 	<tr>
 		<td> <a href="https://amperka.ru/product/linux-internals"> Внутренее устройство Linux </a> </td>
 		<td><img src="/img/linux-internals.jpg" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#9989 </td>
+		<td> in personal library &#x1f4da<br/> not readed &#x25a2 </td>
+    </tr>
+	<tr>
+		<td> <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">Linux модули ядра: пособие по программированию</a> </td>
+		<td><img src="/img/linux-internals.jpg" alt="image" width="150" height="auto"></td>
+		<td> electonick book <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">sources</a>
+             <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">translated</a>
+             not readed &#x25a2
+             READ THIS NEXT
+        </td>
+    </tr>
+	<tr>
+		<td> <a href="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf">Linux Kernel Development</a> </td>
+		<td><img src="https://ruvds.com/wp-content/uploads/2022/10/The-Linux-Kernel-Module-Programming-Guide-ru.pdf" alt="image" width="150" height="auto"></td>
+		<td> search &#x25a2 </td>
     </tr>
 </table>
 
+## Hardware, Circuit Design
+<table>
+	<tr>
+		<th> Title </th>
+		<th> Publication skin</th>
+		<th> Status </th>
+	</tr>
+	<tr>
+		<td> <a href="https://www.elec.ru/library/info/karmannyj-spravochnik-inzhenera/">Карманный справочник инженера электронной техники</a> </td>
+		<td><img src="https://ir-9.ozone.ru/multimedia/wc1000/1015856452.jpg" alt="image" width="150" height="auto"></td>
+		<td> Search &#x25a2 </td>
+	</tr>
+</table>
 
 ## Graphic
 <table>
