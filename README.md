@@ -281,7 +281,7 @@
     </tr>
 </table>
 
-## Hardware, Circuit Design
+## Hardware, Circuit Design, FPGA
 <table>
 	<tr>
 		<th> Title </th>
@@ -291,6 +291,16 @@
 	<tr>
 		<td> <a href="https://www.elec.ru/library/info/karmannyj-spravochnik-inzhenera/">Карманный справочник инженера электронной техники</a> </td>
 		<td><img src="https://ir-9.ozone.ru/multimedia/wc1000/1015856452.jpg" alt="image" width="150" height="auto"></td>
+		<td> Search &#x25a2 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://www.amazon.com/Digital-Design-Approach-William-Dally/dp/0521199506">Digital Design: A system approach</a> </td>
+		<td><img src="https://m.media-amazon.com/images/I/41mkHKMYXHL.jpg" alt="image" width="150" height="auto"></td>
+		<td> Search &#x25a2 </td>
+	</tr>
+	<tr>
+		<td> <a href="https://dmkpress.com/catalog/electronics/circuit_design/978-5-97060-522-6/?srsltid=AfmBOooa_9yn9WcTj02XBvCGSTGEF4CxHHDuKqQXdDL4p8zQaokFy8DD">Цифровая схемотехника и архитектура компьютера</a> </td>
+		<td><img src="https://dmkpress.com/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/978-5-97060-522-6-2_450_600_jpg__100.jpg" alt="image" width="150" height="auto"></td>
 		<td> Search &#x25a2 </td>
 	</tr>
 </table>
@@ -368,3 +378,6 @@
 #### C++ materials
 [Min cpp iso](https://isocpp.org/faq)\
 [Материалы по С/C++ МФТИ Владимиров К.И.](https://disk.yandex.ru/d/XAd4yMcX8bjKsw)
+
+#### FPGA
+[Russian FPGA community](https://fpga-systems.ru/)
