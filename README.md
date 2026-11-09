@@ -231,7 +231,8 @@
 		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr> 
 	<tr>
-		<td> <a href="https://www.amazon.com/High-Performance-Financial-Systems-leveraging/dp/1805124528"/> C++ High Performance for Financial Systems: Build efficient and optimized financial systems by leveraging the power of C++ </a> </td>
+		<td> <a href="https://www.amazon.com/High-Performance-Financial-Systems-leveraging/dp/1805124528"/>
+            C++ High Performance for Financial Systems: Build efficient and optimized financial systems by leveraging the power of C++ </a> </td>
 		<td><img src="https://m.media-amazon.com/images/I/81w1nICiKDL._SL1500_.jpg" alt="image" width="150" height="auto"></td>
 		<td> search &#x25a2 </td>
 	</tr>
@@ -239,6 +240,11 @@
 		<td> <a href="https://www.academia.edu/5049766/Mark_Lutz_Learning_Python_5th_Edition_2013"/>  Mark Lutz - Learning Python </a> </td>
 		<td><img src="https://m.media-amazon.com/images/I/51ycFmfAeKL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="image" width="150" height="auto"></td>
 		<td> read part one &#9989 <br /> search part two &#x25a2 </td>
+	</tr>
+    <tr>
+		<td> <a href="https://www.dmkpress.com/catalog/computer/programming/c/978-5-97060-956-9"/>C++20:Get the Details</a> </td>
+		<td><img src="/img/c++20_rainer_grim.jpeg" alt="image" width="150" height="auto"></td>
+		<td> in personal library &#x1f4da<br/> reading (17%) </td>
 	</tr>
 </table>
 
@@ -256,9 +262,9 @@
 		<td> in personal library &#x1f4da<br/> read &#9989 </td>
 	</tr>
 	<tr>
-		<td> <a href="https://www.amazon.com/How-Linux-Works-Brian-Ward/dp/1718500408"> internal device Linux 3rd ed. Ward Brian </a> </td>
+		<td> <a href="https://www.amazon.com/How-Linux-Works-Brian-Ward/dp/1718500408"> How Linux Works, 3rd Edition: What Every Superuser Should Know. Ward Brian </a> </td>
 		<td><img src="/img/internal_device_Linux_3rd_ed_Ward_Brian.webp" alt="image" width="150" height="auto"></td>
-		<td> in personal library &#x1f4da<br/> reading &#9989 (54%) </td>
+		<td> in personal library &#x1f4da<br/> read &#9989 </td>
     </tr>
 	<tr>
 		<td> <a href="https://amperka.ru/product/linux-internals"> Внутренее устройство Linux </a> </td>
